@@ -6,200 +6,192 @@ function BottomCompany() {
   return (
     <div className='bottomCompanyMainArea'>
         <div className='bottomCompanyHeader'>
-          <h1>ŞİRKET KURULUMU</h1>
+          <h1>COMPANY FORMATION</h1>
         </div>
         <div>
 
-          <h3>Şirket Türleri</h3>
+          <h3>Company Types</h3>
           <div>
-            <p>Letonya'daki belli başlı şirket türleri aşağıda karşılaştırmalı olarak sunulmaktadır.</p>
+            <p>The main types of companies in Latvia are presented below in a comparative manner.</p>
             <table className='companyTypesTable'>
               <tr>
                 <th></th>
-                <th>Limited Şirket (Standart Sermaye)</th>
-                <th>Limited Şirket (Küçük Sermaye)</th>
-                <th>Anomim Şirket</th>
-                <th>Şahıs Şirketi</th>
+                <th>Limited Liability Company (Standard Capital)</th>
+                <th>Limited Liability Company (Small Capital)</th>
+                <th>Joint Stock Company</th>
+                <th>Sole Proprietorship</th>
               </tr>
               <tr>
-                <td><strong>Letonca isim</strong></td>
+                <td><strong>Name in Latvian</strong></td>
                 <td>Sabiedrība ar ierobežotu atbildību SIA</td>
                 <td>Mazkapitāla SIA</td>
                 <td>Akciju sabiedrība AS</td>
                 <td>Individuālais komersants IK</td>
               </tr>
               <tr>
-                <td><strong>Minimum Sermaye Tutaru</strong></td>
+                <td><strong>Minimum Capital Amount</strong></td>
                 <td>2800 Euro</td>
                 <td>1-2799 Euro</td>
                 <td>25000</td>
                 <td>-</td>
               </tr>
               <tr>
-                <td><strong>Oturum Hakkı</strong></td>
-                <td>Verir</td>
-                <td>Vermez</td>
-                <td>Verir</td>
-                <td>Vermez</td>
+                <td><strong>Residency Right</strong></td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>No</td>
               </tr>
               <tr>
-                <td><strong>Kurucu Sayısı</strong></td>
-                <td>Birden çok</td>
-                <td>1-5 arası</td>
-                <td>Birden çok</td>
+                <td><strong>Number of Founders</strong></td>
+                <td>Multiple</td>
+                <td>1-5</td>
+                <td>Multiple</td>
                 <td>1</td>
               </tr>
               <tr>
-                <td><strong>Kurucu Tipi</strong></td>
-                <td>Gerçek ve/veya Tüzel</td>
-                <td>Sadece Gerçek</td>
-                <td>Gerçek ve/veya Tüzel</td>
-                <td>Sadece Gerçek</td>
+                <td><strong>Type of Founder(s)</strong></td>
+                <td>Individual and/or Legal Entity</td>
+                <td>Only Individuals</td>
+                <td>Individual and/or Legal Entity</td>
+                <td>Only Individuals</td>
               </tr>
               <tr>
-                <td><strong>Yönetim Kurulu (YK) Üyeleri</strong></td>
-                <td>Kurucular en az bir YK üyesi atar.</td>
-                <td>Bütün Kurucular aynı zamanda YK üyesidir</td>
-                <td>Kurucular ve YK üyeleri farklı olabilir</td>
-                <td>Yönetim kurulu yoktur.</td>
+                <td><strong>Board of Directors (BD) Members</strong></td>
+                <td>Founders appoint at least one BD member.</td>
+                <td>All founders are also BD members.</td>
+                <td>Founders and BD members may differ.</td>
+                <td>There is no board of directors.</td>
               </tr>
               <tr>
-                <td><strong>Kurumlar Vergisi (Yıllık karın %20-%25'i)</strong></td>
-                <td>Öder</td>
-                <td>Öder</td>
-                <td>Öder</td>
-                <td>Ödemez</td>
+                <td><strong>Corporate Tax (20%-25% of annual profit)</strong></td>
+                <td>Pays</td>
+                <td>Pays</td>
+                <td>Pays</td>
+                <td>Does not pay</td>
               </tr>
               <tr>
-                <td><strong>KDV</strong></td>
-                <td>Öder</td>
-                <td>Öder</td>
-                <td>Öder</td>
-                <td>Öder</td>
+                <td><strong>VAT</strong></td>
+                <td>Pays</td>
+                <td>Pays</td>
+                <td>Pays</td>
+                <td>Pays</td>
               </tr>
             </table>
           </div>
 
-          
           <div className='bottomCompanyText'>
-          <h3>Limited Şirket (Sabiedrība ar ierobežotu atbildību  SIA)</h3>
-            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Limited Şirket Letonya'da popüler 
-              ve kurulması kolay bir şirket türüdür.
-              Limited Şirketler kendi içinde ikiye ayrılır: Standart sermayeli (minimum sermaye 2800 Euro) ve 
-              Küçük sermayeli (1 ila 2799 Euro arası).
+          <h3>Limited Liability Company (Sabiedrība ar ierobežotu atbildību SIA)</h3>
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  A Limited Liability Company is popular 
+              in Latvia and easy to establish.
+              Limited Liability Companies are divided into two categories: Standard capital (minimum 2800 Euro) and 
+              small capital (between 1 and 2799 Euro).
             </p>
-            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Standart sermayeli Limited şirketler, 
-              bir veya birden çok gerçek veya tüzel kişiler tarafından kurulabilir.
-              Küçük sermayeli Limited şirketler başka bir Küçük sermayeli Limited şirkette hissedar olmayan maksimum 5 kişi 
-              tarafından kurulabilir. İleride oturum izni almak isteyen vatandaşlarımızın standart sermayeli Limited şirket
-              kurması gerekmektedir.
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Standard-capital Limited companies 
+              can be established by one or more individuals or legal entities.
+              Small-capital Limited companies can be established by a maximum of 5 individuals who do not hold shares 
+              in another small-capital Limited company. For those wishing to obtain a residence permit in the future, 
+              a standard-capital Limited company must be established.
             </p>
-            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Limited Şirket kurucuları şirket 
-              kurulduktan sonra şirket hissedarı olurlar. Şirket kurucusu/hissedarı olmak 
-              için Letonya vatandaşı olma veya Letonya'da ikamet etme şartı yoktur. Limited Şirkete verilecek adın Letonya'da
-              başka bir şirket adıyla veya marka ismiyle aynı olmaması gerekmektedir. Kurucular şirketin yönetim kuruluna en 
-              az bir kişiyi atarlar. Yönetim kurulu üyesi olmak için Letonya vatandaşı olma veya Letonya'da yaşama şartı yoktur.
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Once the Limited Company is established, 
+              the founders become shareholders. There is no requirement to be a Latvian citizen or resident to be a 
+              founder/shareholder. The chosen name for the Limited Company must not be identical to any other existing 
+              company name or trademark in Latvia. The founders appoint at least one member to the company's board of directors. 
+              It is not required to be a Latvian citizen or resident to serve as a board member.
             </p>
-            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Limited Şirket Ticaret Siciline 
-              kaydedildiği anda vergi mükellefi de olur. Limited Şirketini için KDV numarasını
-              kayıt işlemleri yapılırken alınabilir.
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  As soon as the Limited Company is 
+              registered in the Commercial Register, it also becomes a taxpayer. A VAT number for the Limited Company 
+              can be obtained upon the request of our client.
             </p>
-            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Limited şirket kurulumu için Letonya'yı 
-              ziyaret edebilir, süreci yakından takip edebilir ve ileride çok
-              işinize yarayacak elektronik imzanızı da alabilir ve şirketin geçici banka hesabını kalıcı banka hesabına 
-              dönüştürebilirsiniz.
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  You may visit Latvia to oversee the 
+              company formation process and to obtain your electronic signature (which will be very useful later) and to 
+              convert the company's temporary bank account into a permanent one.
             </p>
-            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Şirket kurulumu bitince, müşterimize 
-              kaşelerini temsil ediyoruz. Müşterimiz arzu ederse, güvenilir muhasebeci ve
-              personel bulması konusunda yardımcı da oluyoruz. Ayrıca, faaliyet ve yatırım konusunda net bir planı olmayan 
-              müşterilerimize iş planı, iş fikirleri ve lisanslar konusunda da yardımcı olabiliriz.
+            <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Once the company formation is complete, 
+              we present the stamps to our client. If desired, we also help in finding reliable accountants and staff. 
+              Additionally, for clients who do not have a clear plan for operations or investment, we can assist with 
+              business planning, ideas, and licensing.
             </p>
             
             <div className='processTable'>
               <div className='processTableRows'>
-                <span className='processTableBox'>Müşterimizin bilgi ve belgeleri alınır.</span>
+                <span className='processTableBox'>We obtain the client’s information and documents.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Şirket belgeleri hazırlanır, müşteri tarafından imzalanır.</span>
+                <span className='processTableBox'>Company documents are prepared and signed by the client.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Şirket adresi belirlenir, başvuru dosyası hazırlanır.
+                <span className='processTableBox'>Company address is determined, and the application file is prepared.
                 </span>
               </div>
               <div className='processTableRows processTableRowMiddle'>
-                <span className='processTableBox'>Geçici banka hesabı açılır. Müşterimiz tarafından 
-                şirket sermayesi transfer edilir.</span>
+                <span className='processTableBox'>A temporary bank account is opened. The company capital is transferred by our client.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Devlet Şirket Sicil Kurumu'na başvuru
-                  dosyası sunulur (3 gün). </span>
+                <span className='processTableBox'>The application is submitted to the State Enterprise Register (3 days).</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Müşterimize kaşeleri ve şirket belgeleri teslim edilir.</span>
+                <span className='processTableBox'>We deliver the stamps and company documents to our client.</span>
               </div>
               <div className='processTableRows'>
-                <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip e-imza başvurusu yapabilir.</span>
+                <span className='processTableBox'>Optional: Client may visit Latvia to apply for an e-signature.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Opsiyonel: Müşterimiz Letonya'ya gelip geçici hesabı normal banka hesabına 
-                  dönüştürebilir.</span>
+                <span className='processTableBox'>Optional: Client may visit Latvia to convert the temporary account to a 
+                  regular one.</span>
                 <img src='/svg_arrow3.svg' className='processTableArrows' alt='arrow icon'/>
-                <span className='processTableBox'>Opsiyonel: Şirkete KDV numarası çıkarılması için başvuru yapılabilir.
-                  Bunun için ayrıca ücret ödenir.
+                <span className='processTableBox'>Optional: Application for company VAT number. An additional fee applies.
                 </span>
               </div>
             </div>
             <br/>
             <ol>
-              <strong>Gerekli Belge ve Bilgiler:</strong>
-              <li>Kurucuların geçerli pasaport bilgileri (Pasaportun önsayfasının taranmış hali)</li>
-              <li>Kurucuların ikamet adresi bilgisi (E-devlet yerleşim yeri belgesi)</li>
-              <li>Kurucuların temsilcilerinin bilgileri (Temsicileriniz olarak kendi
-                kişisel bilgilerimizi Şirket Sicil Kurumu'na sunuyoruz)</li>
-              <li>Yönetim Kurulu üyelerinin geçerli pasaport ve ikamet adresi bilgileri</li>
-              <li>Şirketin sözleşmesi (Biz hazırlayacağız)</li>
-              <li>Şirketin ana sermayesinin yatırıldığına dair banka belgesi (Biz hazırlayacağız)</li>
-              <li>Şirketin adres bilgisi (Biz hazırlayacağız)</li>
-              <li>Kurucu ve YK üyelerinin şart olmasa da Türkiye'den alacakları apostilli ve Letonca'ya tercümeli adli sicil belgesi
-                veya Riga Büyükelçiliği Konsolosluğundan alacağınız apostilsiz ve Letonca adli sicil belgesi
-              </li>
-              <li>Kuruculardan biri tüzel kişilik ise (Türkiye'de kayıtlı bir şirket gibi), 
-                <br/> - Şirket kuruluş belgesi (Ticaret Sicil Gazetesi)
-                <br/> - Şirket adres bilgisi (Ticaret Kütük Kaydı)
-                <br/> - Şirket iyi hal belgesi (Ticaret Sicil Memurlukları)
-                <br/> - Şirket kuruluş sözleşmesi
-                <br/> - İmza sirküleri
-                <br/> - Faaliyet belgesi
+              <strong>Required Documents and Information:</strong>
+              <li>Valid passport details of the founders (a scanned copy of the main passport page)</li>
+              <li>Founders' residency address information (e-government residency certificate)</li>
+              <li>Information about the founders' representatives (we submit our personal details to the Company Register as your representatives)</li>
+              <li>Valid passport and residency address information of the board members</li>
+              <li>The company’s articles of association (prepared by us)</li>
+              <li>Bank document confirming deposit of the company's share capital (prepared by us)</li>
+              <li>Company address details (provided by us)</li>
+              <li>Although not mandatory, founders and board members may obtain a criminal record certificate from Turkey with an apostille and translation into Latvian, or from the Riga Embassy/Consulate without an apostille but in Latvian.</li>
+              <li>If one of the founders is a legal entity (e.g., a company registered in Turkey),
+                <br/> - Company establishment document (Trade Registry Gazette)
+                <br/> - Company address information (Trade Registry Record)
+                <br/> - Certificate of good standing (Trade Registry Offices)
+                <br/> - Company establishment contract
+                <br/> - Signature circular
+                <br/> - Certificate of activity
               </li>
             </ol>
             <div className='bottomCompanyLinks'>
               <br/>
               <ul>
-              Daha detaylı bilgi için:
+              For more detailed information:
                 <li>
                   <a href='https://www.ur.gov.lv/en/register/company-or-merchant/limited-liability-company-sia/founding/registration-with-the-enterprise-register/'>
-                    Şirket Sicil Kurumu (Latvijas Republikas Uzņēmumu reģistrs)
+                    Enterprise Register (Latvijas Republikas Uzņēmumu reģistrs)
                   </a>
                 </li>
 
                 <li>
                   <a href='https://www.vid.gov.lv/en'>
-                    Devlet Gelir İdaresi (Valsts ieņēmumu dienests VID)
+                    State Revenue Service (Valsts ieņēmumu dienests VID)
                   </a>
                 </li>
                 <li>
                   <a href='https://www.liaa.gov.lv/en/invest-latvia'>
-                    Letonya Yatırım ve Kalkınma Ajansı (Latvijas Investīciju un attīstības aģentūra LIAA)
+                    Investment and Development Agency of Latvia (Latvijas Investīciju un attīstības aģentūra LIAA)
                   </a>
                 </li>
                 <li>
                   <a href='https://www.njordlaw.com/lv'>
-                    Njord Letonya Kurumsal Hizmetler Firması
+                    Njord Latvia Corporate Services Company
                   </a>
                 </li>
                 <li>
                   <a href='https://www.minioffice.lv/en/company-formation-latvia/how-to-open-company-latvia/'>
-                    Minioffice Kurumsal Hizmetler Firması
+                    Minioffice Corporate Services Company
                   </a>
                 </li>
                 <li>
                   <a href='https://gramatvedis24.lv/en/company-registration-in-latvia/'>
-                    Grāmatvedis24 Kurumsal Hizmetler Firması
+                    Grāmatvedis24 Corporate Services Company
                   </a>
                 </li>
               </ul>
@@ -212,4 +204,4 @@ function BottomCompany() {
   )
 }
 
-export default BottomCompany
+export default BottomCompany;

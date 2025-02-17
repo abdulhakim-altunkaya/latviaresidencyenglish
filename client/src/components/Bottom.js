@@ -13,12 +13,12 @@ function Bottom() {
   return (
     <div className='AreaBottom'>
       <Routes>
-        <Route path="/iletisim" element={<BottomContact/>} />
-        <Route path="/diger-hizmetler" element={<BottomOther/>} />
-        <Route path="/fiyatlar" element={<BottomPrices/>} />
-        <Route path="/yatirim-ikamet" element={<BottomResidency/>} />
-        <Route path="/sorular" element={<BottomSSS/>} />
-        <Route path="/sirket-firma-kurulus" element={<BottomCompany/>} />
+        <Route path="/contact" element={<BottomContact/>} />
+        <Route path="/other-services" element={<BottomOther/>} />
+        <Route path="/prices" element={<BottomPrices/>} />
+        <Route path="/investment-residency" element={<BottomResidency/>} />
+        <Route path="/questions" element={<BottomSSS/>} />
+        <Route path="/company-set-up" element={<BottomCompany/>} />
         <Route path="*" element={<BottomHome/>} />
       </Routes>
     </div>
