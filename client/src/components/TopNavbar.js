@@ -5,12 +5,11 @@ function TopNavbar() {
   const navigate = useNavigate();
   return (
     <div className='AreaTopNavbar'>
-      <span onClick={() => navigate("/yatirim-ikamet")}>Oturum İzni</span>
-      <span onClick={() => navigate("/diger-hizmetler")}>Diğer Hizmetler</span>
-      <span onClick={() => navigate("/fiyatlar")}>Ücretlerimiz</span>
-      <span onClick={() => navigate("/sorular")}>SSS</span>
-      <span onClick={() => navigate("/iletisim")}>İletişim</span>
-      
+      <span onClick={() => navigate("/investment-residency")}>Residency Permit</span>
+      <span onClick={() => navigate("/other-services")}>Other Services</span>
+      <span onClick={() => navigate("/prices")}>Prices</span>
+      <span onClick={() => navigate("/questions")}>FAQ</span>
+      <span onClick={() => navigate("/contact")}>Contact</span>
     </div>
   )
 }

@@ -198,6 +198,10 @@ app.listen(PORT, () => {
 add how to become a citizen section, reference immigrant invest
 add car rental page with pictures
 */
+//Check for Türkiye, Türk, Türkçe and its english versions in all components
+//Fix routes if needed
+//Remove Turkish flag
+//Change the content of the mainpage to to the taste of international clients
 //You can remove cors before production
 /*
 UNCOMMENT THIS IN SERVER.JS: app.use(express.static(path.join(__dirname, 'client/build'))); 

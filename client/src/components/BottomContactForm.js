@@ -18,19 +18,19 @@ function BottomContactForm() {
 
     // Name validation
     if (inputName.length < 2 || inputName.length > 50) {
-      setResultArea("İsim 2 ile 50 karakter arasında olmalıdır.");
+      setResultArea("Name must be between 2 and 50 characters.");
       return;
     }
 
     // Email validation
     if (!validateEmail(inputMail)) {
-      setResultArea("Geçerli bir e-mail adresi giriniz.");
+      setResultArea("Please enter a valid email address.");
       return;
     }
 
     // Message validation
     if (inputMessage.length < 10 || inputMessage.length > 500) {
-      setResultArea("Mesaj 10 ile 500 karakter arasında olmalıdır.");
+      setResultArea("Your message must be between 10 and 500 characters.");
       return;
     }
 
@@ -48,7 +48,7 @@ function BottomContactForm() {
         setResultArea(error.response.data.message);
         console.log(error.message);
       } else {
-        setResultArea("Mesaj gönderilirken hata oluştu. Lütfen doğrudan mail gönderiniz.");
+        setResultArea("An error occurred while sending your message. Please send an email directly.");
         console.log(error.message);
       }
     }
@@ -58,19 +58,39 @@ function BottomContactForm() {
     <div>
       <form className='contactFormArea' onSubmit={handleSubmit}>
         <div className='formUpperInputs'>
-          <input className='formInputs' type='text' placeholder='İsim-soyisim'
-            value={inputName} onChange={(e) => setInputName(e.target.value)} required />
-          <input className='formInputs' type='text' placeholder='E-mail'
-            value={inputMail} onChange={(e) => setInputMail(e.target.value)} required />
+          <input 
+            className='formInputs' 
+            type='text' 
+            placeholder='Name-Surname'
+            value={inputName} 
+            onChange={(e) => setInputName(e.target.value)} 
+            required 
+          />
+          <input 
+            className='formInputs' 
+            type='text' 
+            placeholder='E-mail'
+            value={inputMail} 
+            onChange={(e) => setInputMail(e.target.value)} 
+            required 
+          />
         </div>
 
         <div className='formTextArea'>
-          <textarea cols="30" rows="10" placeholder="Mesajınız"
-            value={inputMessage} onChange={(e) => setInputMessage(e.target.value)} required></textarea>
+          <textarea 
+            cols="30" 
+            rows="10" 
+            placeholder="Your message"
+            value={inputMessage} 
+            onChange={(e) => setInputMessage(e.target.value)} 
+            required
+          ></textarea>
         </div>
 
-        <div className='formButtonArea'><button type="submit" className='button1111'>Gönder</button></div>
-        <div>{ resultArea}</div>
+        <div className='formButtonArea'>
+          <button type="submit" className='button1111'>Send</button>
+        </div>
+        <div>{ resultArea }</div>
       </form>
     </div>
   )
