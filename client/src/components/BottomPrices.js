@@ -41,255 +41,247 @@ function BottomPrices() {
     } else if (num === 11) {
       setIsVisible11(!isVisible11);
     }
-    
   }
 
   return (
     <div>
-    <div className='bottomPricesMainArea'>
-      <Helmet>
-        <title>SIK SORULAN SORULAR | Letonya Oturum Fiyat Listesi</title>
-        <meta
-          name="description"
-          content="Letonya'da yatırım yoluyla oturum başvurusu fiyat listesi, tercüme hizmetleri fiyat listesi, araç kiralama, 
-          mihmandarlık, kafile rehberliği, sözlü tercüme ve yazılı tercüme fiyat listelerine buradan ulaşabilirsiniz."
-        />
-        <meta
-          name="keywords"
-          content="Letonya, oturum izni, vatandaşlık, yatırım, gayrımenkul yatırımı, banka mevduatı, faizsiz devlet tahvilleri,
-            fiyat, ücret, danışmanlık ücreti, sözlü ve yazılı tercüme, araç kiralama fiyatları, detaylı fiyat listesi, fatura,
-            Letonya gayrımenkul yatırımı ücreti, başvuru ücreti"
-        />
-      </Helmet>
+      <div className='bottomPricesMainArea'>
+        <Helmet>
+          <title>FREQUENTLY ASKED QUESTIONS | Latvia Residence Price List</title>
+          <meta
+            name="description"
+            content="Here you can find the price list for Latvian investment-based residence applications, translation services, car rental, guide services for groups, and both spoken and written translation."
+          />
+          <meta
+            name="keywords"
+            content="Latvia, residence permit, citizenship, investment, real estate investment, bank deposit, zero-interest government bonds, price, fee, consulting fee, oral and written translation, car rental prices, detailed price list, invoice, Latvia real estate investment cost, application fee"
+          />
+        </Helmet>
         <div className='bottomPricesHeader'>
-          <h1>ÜCRETLERİMİZ</h1>
+          <h1>OUR FEES</h1>
         </div>
         <div className='bottomPricesContent1'>
-            <p>Şeffaflık ve müşteri memnuniyeti prensiplerimiz çerçevesinde 2025 yılı ücretlerimiz aşağıda sunulmaktadır.</p>
-            <p>Ücretlerimiz standart olup, bütün müşterilerimiz için aynıdır.</p>
-            <p>Ücretlerimiz tek seferde alınmakta olup, oturum kartının çıkmaması ve müşterimizin başvurusundan vazgeçmesi 
-              halinde alınan ücretin yarısı 30 gün içerisinde iade edilmektedir.</p>
-            <p>Ücretlerimize Letonya kanunları çerçevesinde bütün vergiler dahildir ve yapılan ödemeler için
-              müşteri ismine fatura düzenlenmektedir.</p>
-            <p>Ücretler şirketimizin Letonya'daki banka hesabına yapılmaktadır.</p>
-            <p>Ücretlerimizin kapsamına ilişkin detaylı bilgilere aşağıdaki kalemlere tıklayarak ulaşabilirsiniz.</p>
+          <p>In line with our principles of transparency and customer satisfaction, our fees for 2025 are listed below.</p>
+          <p>Our fees are standard and apply equally to all clients.</p>
+          <p>Our fees are charged in a single payment. If the residence card is not issued or if our client withdraws their application, half of the paid amount is refunded within 30 days.</p>
+          <p>All taxes under Latvian law are included in our fees, and invoices are issued in the client’s name for any payments made.</p>
+          <p>Payments are made to our company’s bank account in Latvia.</p>
+          <p>Details of what our fees cover can be found by clicking on the items below.</p>
         </div>
         <div className='bottomPricesContent2'>
 
-            <div className='priceEntry'>
-              <div className='bottomPricesListItem' onClick={() => toggleDetail(1)}>
-                <span className='spanListTitle'>Gayrımenkul yatırımıyla oturum kartı başvurusu: </span> 
-                <span className='spanPrices'> 6000 Euro</span>
-              </div>  
-            </div> 
-            {isVisible1 ? 
-              <div className='subDetails'>
-                <span>Fiyata dahil hizmetler: </span> <br/>
-                <ul>
-                  <li>Evrak takibi,</li>
-                  <li>Tercüme işlemleri,</li>
-                  <li>Refakat,</li>
-                  <li>Danışmanlık,</li>
-                  <li>İlgili kurumlara araçla yapılacak ziyaretler, ziyaretlerde refakat</li>
-                  <li>5 evi ziyaret ve ziyaret süresince refakat</li>
-                  <li>Riga Havalimanından Riga şehrindeki otele transfer</li>
-                  <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
-                </ul>
-              </div>
-            : <></>}
-
-            <div className='priceEntry'>
-              <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
-                <span className='spanListTitle'>Devlet tahvili yatırımıyla oturum kartı başvurusu: </span> 
-                <span className='spanPrices'> 6000 Euro</span>
-              </div>
+          <div className='priceEntry'>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(1)}>
+              <span className='spanListTitle'>Residence card application through real estate investment: </span> 
+              <span className='spanPrices'> 6000 Euro</span>
+            </div>  
+          </div> 
+          {isVisible1 ? 
+            <div className='subDetails'>
+              <span>Services included in the price:</span> <br/>
+              <ul>
+                <li>Document follow-up,</li>
+                <li>Translation services,</li>
+                <li>Accompanying assistance,</li>
+                <li>Consulting,</li>
+                <li>Transportation to relevant institutions by car, with on-site accompaniment</li>
+                <li>Viewing of up to 5 properties and accompaniment during visits</li>
+                <li>Transfer from Riga Airport to a hotel in Riga</li>
+                <li>Any fees under 50 Euros paid to relevant institutions and notaries</li>
+              </ul>
             </div>
-            {isVisible2 ? 
-              <div className='subDetails'>
-                  <span>Fiyata dahil hizmetler: </span> <br/>
-                  <ul>
-                    <li>Evrak takibi,</li>
-                    <li>Tercüme işlemleri,</li>
-                    <li>Refakat,</li>
-                    <li>Danışmanlık,</li>
-                    <li>İlgili kurumlara araçla yapılacak ziyaretler, ziyaretlerde refakat</li>
-                    <li>Riga Havalimanından Riga şehrindeki otele transfer</li>
-                    <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
-                  </ul>
-              </div>
-            : <></>}
+          : <></>}
 
-            <div className='priceEntry'>
-              <div className='bottomPricesListItem' onClick={() => toggleDetail(3)}>
-                <span className='spanListTitle'>Limited şirket yatırımıyla oturum kartı başvurusu: </span> 
-                <span className='spanPrices'> 6000 Euro</span>
-              </div>
+          <div className='priceEntry'>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
+              <span className='spanListTitle'>Residence card application through government bonds: </span> 
+              <span className='spanPrices'> 6000 Euro</span>
             </div>
-            {isVisible3 ? 
-              <div className='subDetails'>
-                  <span>Fiyata dahil hizmetler: </span> <br/>
-                  <ul>
-                    <li>Evrak takibi,</li>
-                    <li>Tercüme işlemleri,</li>
-                    <li>Refakat,</li>
-                    <li>Danışmanlık,</li>
-                    <li>İlgili kurumlara araçla yapılacak ziyaretler, ziyaretlerde refakat</li>
-                    <li>Riga Havalimanından Riga şehrindeki otele transfer</li>
-                    <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
-                  </ul>
-              </div>
-            : <></>}
-
-            <div className='priceEntry'>
-              <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
-                <span className='spanListTitle'>Banka Mevduatı yatırımıyla oturum kartı başvurusu </span> 
-                <span className='spanPrices'> 6000 Euro</span>
-              </div>
+          </div>
+          {isVisible2 ? 
+            <div className='subDetails'>
+              <span>Services included in the price:</span> <br/>
+              <ul>
+                <li>Document follow-up,</li>
+                <li>Translation services,</li>
+                <li>Accompanying assistance,</li>
+                <li>Consulting,</li>
+                <li>Transportation to relevant institutions by car, with on-site accompaniment</li>
+                <li>Transfer from Riga Airport to a hotel in Riga</li>
+                <li>Any fees under 50 Euros paid to relevant institutions and notaries</li>
+              </ul>
             </div>
-            {isVisible4 ? 
-              <div className='subDetails'>
-                  <span>Fiyata dahil hizmetler: </span> <br/>
-                  <ul>
-                    <li>Evrak takibi,</li>
-                    <li>Tercüme işlemleri,</li>
-                    <li>Refakat,</li>
-                    <li>Danışmanlık,</li>
-                    <li>İlgili kurumlara araçla yapılacak ziyaretler, ziyaretlerde refakat</li>
-                    <li>Riga Havalimanından Riga şehrindeki otele transfer</li>
-                    <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
-                  </ul>
-              </div>
-            : <></>}
+          : <></>}
 
-            <div className='priceEntry'>
+          <div className='priceEntry'>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(3)}>
+              <span className='spanListTitle'>Residence card application through limited company investment: </span> 
+              <span className='spanPrices'> 6000 Euro</span>
+            </div>
+          </div>
+          {isVisible3 ? 
+            <div className='subDetails'>
+              <span>Services included in the price:</span> <br/>
+              <ul>
+                <li>Document follow-up,</li>
+                <li>Translation services,</li>
+                <li>Accompanying assistance,</li>
+                <li>Consulting,</li>
+                <li>Transportation to relevant institutions by car, with on-site accompaniment</li>
+                <li>Transfer from Riga Airport to a hotel in Riga</li>
+                <li>Any fees under 50 Euros paid to relevant institutions and notaries</li>
+              </ul>
+            </div>
+          : <></>}
+
+          <div className='priceEntry'>
+            <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
+              <span className='spanListTitle'>Residence card application through bank deposit investment </span> 
+              <span className='spanPrices'> 6000 Euro</span>
+            </div>
+          </div>
+          {isVisible4 ? 
+            <div className='subDetails'>
+              <span>Services included in the price:</span> <br/>
+              <ul>
+                <li>Document follow-up,</li>
+                <li>Translation services,</li>
+                <li>Accompanying assistance,</li>
+                <li>Consulting,</li>
+                <li>Transportation to relevant institutions by car, with on-site accompaniment</li>
+                <li>Transfer from Riga Airport to a hotel in Riga</li>
+                <li>Any fees under 50 Euros paid to relevant institutions and notaries</li>
+              </ul>
+            </div>
+          : <></>}
+
+          <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(5)}>
-              <span className='spanListTitle'>Şirket Kurulumu: </span> 
-              <span className='spanPrices'> 1500 Euro</span></div>
-              </div>
-              {isVisible5 ? 
-              <div className='subDetails'>
-                  <span>Fiyata dahil hizmetler: </span> <br/>
-                  <ul>
-                    <li>Evrak takibi,</li>
-                    <li>Tercüme işlemleri,</li>
-                    <li>Refakat,</li>
-                    <li>Danışmanlık,</li>
-                    <li>Şirket için 1 yıllık adres</li>
-                    <li>Şirket için mühür ve kaşe çıkarılması</li>
-                    <li>İlgili kurumlara ve Noterliklere ödenecek 50 Euro altındaki harçlar</li>
-                    <li>Banka hesabı açılması fiyata dahil değildir. Banka hesabı açmak istemeniz halinde 
-                      ayrıca fiyat teklifi isteyebilirsiniz</li>
-                  </ul>
-              </div>
-              : <></>}
+              <span className='spanListTitle'>Company formation: </span> 
+              <span className='spanPrices'> 1500 Euro</span>
+            </div>
+          </div>
+          {isVisible5 ? 
+            <div className='subDetails'>
+              <span>Services included in the price:</span> <br/>
+              <ul>
+                <li>Document follow-up,</li>
+                <li>Translation services,</li>
+                <li>Accompanying assistance,</li>
+                <li>Consulting,</li>
+                <li>One-year address for the company</li>
+                <li>Issuance of the company’s official stamp/seal</li>
+                <li>Any fees under 50 Euros paid to relevant institutions and notaries</li>
+                <li>Bank account opening is not included. If you wish to open a bank account, you can request a separate price quote.</li>
+              </ul>
+            </div>
+          : <></>}
 
-            <div className='priceEntry'>
+          <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(6)}>
-              <span className='spanListTitle'>İş takibi/Belge onayları (saatlik): </span> 
-              <span className='spanPrices'> 80 Euro</span></div>
-              </div>
-              {isVisible6 ? 
-              <div className='subDetails'>
-                  <ul>
-                    <li>Letonya'da takip gerektiren herhangi bir durumunuz olması halinde bu hizmetimize başvurabilirsiniz.</li>
-                    <li>Saatlik 80 kısa süreli işler için belirlenen fiyat olup, uzun süreli takip gerektirecek 
-                      bir işiniz olması halinde ayrıca fiyat teklifi sunabiliriz.</li>
-                    <li>Bu hizmetimiz kapsamında yakınlarınızın, çocuklarınızın durumlarını takip etmemizi de isteyebilirsiniz.</li>
-                    <li>Letonya'da hastalanan veya hastanelik olan ve yakınlarınız için bu hizmetimizden faydalanabilirsiniz.</li>
-                  </ul>
-              </div>
-              : <></>}
+              <span className='spanListTitle'>Task follow-up/Document approvals (hourly): </span> 
+              <span className='spanPrices'> 80 Euro</span>
+            </div>
+          </div>
+          {isVisible6 ? 
+            <div className='subDetails'>
+              <ul>
+                <li>You can use this service if you have any issues in Latvia that require follow-up.</li>
+                <li>The hourly rate of 80 Euros applies to short-term tasks. For long-term projects requiring continuous follow-up, we can provide a separate price quote.</li>
+                <li>This service can also include monitoring the status of your relatives or children.</li>
+                <li>You can use this service for relatives who become ill or hospitalized in Latvia.</li>
+              </ul>
+            </div>
+          : <></>}
 
-            <div className='priceEntry'>
+          <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(7)}>
-              <span className='spanListTitle'> Genel danışmanlık (saatlik): </span> 
-              <span className='spanPrices'> 80 Euro</span></div>
-              </div>
-              {isVisible7 ? 
-              <div className='subDetails'>
-                  <ul>
-                    <li>Aklınızdaki bütün soruları, danışmak istediğiniz bütün konuları bize sorabilirsiniz.</li>
-                  </ul>
-              </div>
-              : <></>}
+              <span className='spanListTitle'>General consulting (hourly): </span> 
+              <span className='spanPrices'> 80 Euro</span>
+            </div>
+          </div>
+          {isVisible7 ? 
+            <div className='subDetails'>
+              <ul>
+                <li>You can ask us any questions you have or discuss any topics you wish.</li>
+              </ul>
+            </div>
+          : <></>}
 
-            <div className='priceEntry'>
+          <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(8)}>
-              <span className='spanListTitle'>Kafile/Heyet rehberliği (günlük): </span> 
-              <span className='spanPrices'> 500 Euro</span></div>
-              </div>
-              {isVisible8 ? 
-              <div className='subDetails'>
-                  <ul>
-                    <li>Rehberlerimiz Türkçe, Letonca, Rusça, İngilizce dillerinde hizmet vermektedirler.</li>
-                    <li>Rehberlerimiz arzu edilmesi halinde sadece Letonya değil, Litvanya, Estonya, İsveç,
-                      Norveç, Rusya ve Belarus'ta görev alabilmektedir.</li>
-                    <li>Rehberimizin bir günden uzun süre programları için kalacak yeri ve yemekleri heyet/kafile
-                      tarafından karşılanır.
-                    </li>
-                    <li>Rehberlerimiz ülkenin tarihi, coğrafyası, turistik yerleri ve alışveriş merkezleri hakkında
-                      oldukça kapsamlı bilgiye sahip, istenilen her yerde heyet/kafileye refakat eder. 
-                    </li>
-                  </ul>
-              </div>
-              : <></>}
+              <span className='spanListTitle'>Group/Delegation guide service (daily): </span> 
+              <span className='spanPrices'> 500 Euro</span>
+            </div>
+          </div>
+          {isVisible8 ? 
+            <div className='subDetails'>
+              <ul>
+                <li>Our guides offer services in Turkish, Latvian, Russian, and English.</li>
+                <li>If desired, our guides can also provide services not only in Latvia but in Lithuania, Estonia, Sweden, Norway, Russia, and Belarus.</li>
+                <li>For programs longer than one day, accommodation and meals for the guide are provided by the group/delegation.</li>
+                <li>Our guides are well-versed in the country’s history, geography, tourist attractions, and shopping centers, and they accompany groups/delegations wherever needed.</li>
+              </ul>
+            </div>
+          : <></>}
 
-            <div className='priceEntry'>
+          <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(9)}>
-              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce yazılı tercüme sayfa başı (400 kelime): </span> 
-              <span className='spanPrices'> 70 Euro</span></div>
-              </div>
-              {isVisible9 ? 
-              <div className='subDetails'>
-                  <ul>
-                    <li>Tercümeler isterseniz kağıt olarak isterseniz e-mail olarak yapılabilir.</li>
-                    <li>Tercümelerde sadece Tercümanın onayı ve imzası bulunmaktadır.</li>
-                    <li>Tercümelere Noterlik, Konsolosluk veya apostil onayı alınabilmekte olup,
-                      bu işlemler ilgili ücretler ayrıca ödenir. 
-                    </li>
-                    <li>Müşterilerimizin bilgileri ve tercümenin konusu dışarı ile paylaşılmaz.</li>
-                    <li>Fiyata KDV dahildir ve müşteri adına fatura düzenlenir.</li>
-                  </ul>
-              </div>
-              : <></>}
+              <span className='spanListTitle'>Turkish-Latvian-Russian-English written translation per page (400 words): </span> 
+              <span className='spanPrices'> 70 Euro</span>
+            </div>
+          </div>
+          {isVisible9 ? 
+            <div className='subDetails'>
+              <ul>
+                <li>Translations can be provided on paper or via email, as you prefer.</li>
+                <li>The translator’s approval and signature appear on each translation.</li>
+                <li>Notary, consular, or apostille approval can be obtained for translations; the fees for these services are paid separately.</li>
+                <li>We do not share client information or the subject of the translation with any external parties.</li>
+                <li>The price includes taxes, and an invoice is issued in the client’s name.</li>
+              </ul>
+            </div>
+          : <></>}
 
-            <div className='priceEntry'>
+          <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(10)}>
-              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce sözlü tercüme (saatlik): </span> 
-              <span className='spanPrices'> 120 Euro</span></div>
-              </div>
-              {isVisible10 ? 
-              <div className='subDetails'>
-                  <ul>
-                    <li>Tercümanın şehir içi seyahat masrafları fiyata dahildir.</li>
-                    <li>Müşterilerimizin bilgileri ve tercümenin konusu dışarı ile paylaşılmaz.</li>
-                    <li>Fiyata KDV dahildir ve müşteri adına fatura düzenlenir.</li>
-                  </ul>
-              </div>
-              : <></>}
+              <span className='spanListTitle'>Turkish-Latvian-Russian-English oral translation (hourly): </span> 
+              <span className='spanPrices'> 120 Euro</span>
+            </div>
+          </div>
+          {isVisible10 ? 
+            <div className='subDetails'>
+              <ul>
+                <li>The translator’s local travel expenses are included in the price.</li>
+                <li>We do not share client information or the subject of the translation with any external parties.</li>
+                <li>The price includes taxes, and an invoice is issued in the client’s name.</li>
+              </ul>
+            </div>
+          : <></>}
 
-            <div className='priceEntry'>
+          <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(11)}>
-              <span className='spanListTitle'>Türkçe-Letonca-Rusça-İngilizce sözlü tercüme günlük (12 saat, molalı): </span> 
-              <span className='spanPrices'> 680 Euro</span></div>
-              </div>
-              {isVisible11 ? 
-              <div className='subDetails'>
-                  <ul>
-                    <li>Tercümanın şehir içi seyahat masrafları fiyata dahildir.</li>
-                    <li>Tercüman 45 dakika tercüme, 15 dakika mola şeklinde çalışır.</li>
-                    <li>Müşterilerimizin bilgileri ve tercümenin konusu dışarı ile paylaşılmaz.</li>
-                    <li>Fiyata KDV dahildir ve müşteri adına fatura düzenlenir.</li>
-                  </ul>
-              </div>
-              : <></>}
+              <span className='spanListTitle'>Turkish-Latvian-Russian-English oral translation daily (12 hours with breaks): </span> 
+              <span className='spanPrices'> 680 Euro</span>
+            </div>
+          </div>
+          {isVisible11 ? 
+            <div className='subDetails'>
+              <ul>
+                <li>The translator’s local travel expenses are included in the price.</li>
+                <li>The translator works in 45-minute interpreting sessions, followed by a 15-minute break.</li>
+                <li>We do not share client information or the subject of the translation with any external parties.</li>
+                <li>The price includes taxes, and an invoice is issued in the client’s name.</li>
+              </ul>
+            </div>
+          : <></>}
             
         </div>
-        </div>
-        <div> <br/><br/><br/><br/><br/><br/><br/> </div>
-        <div className='footerArea'> <Footer /> </div>
+      </div>
+      <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+      <div className='footerArea'> <Footer /> </div>
     </div>
   )
 }
 
-export default BottomPrices
+export default BottomPrices;

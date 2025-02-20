@@ -6,317 +6,291 @@ import Footer from './Footer';
 import { Helmet } from "react-helmet";
 
 function BottomResidency() {
-return (
-  <div>
-    {/* Helmet for SEO */}
-    <Helmet>
-      <title>SIK SORULAN SORULAR | Letonya Oturum</title>
-      <meta
-        name="description"
-        content="Letonya'da yatırım yoluyla oturum türleri, vatandaşlık ve yatırım konularında en çok 
-        merak edilen soruların yanıtlarını burada bulabilirsiniz."
-      />
-      <meta
-        name="keywords"
-        content="Letonya, oturum izni, vatandaşlık, yatırım, gayrımenkul yatırımı, banka mevduatı, faizsiz devlet tahvilleri,
-          karşılaştırmalı tablo, yatırım yoluyla oturum, süreç, gerekli evrak listesi, lazım belgeler"
-      />
-    </Helmet>
-    <div className='bottomResidencyMain'>
+  return (
+    <div>
+      {/* Helmet for SEO */}
+      <Helmet>
+        <title>FREQUENTLY ASKED QUESTIONS | Latvia Residence</title>
+        <meta
+          name="description"
+          content="Find answers to the most frequently asked questions about types of investment-based residency, citizenship, and investment in Latvia here."
+        />
+        <meta
+          name="keywords"
+          content="Latvia, residence permit, citizenship, investment, real estate investment, bank deposits, zero-interest government bonds, comparison table, residency by investment, process, required documents, necessary papers"
+        />
+      </Helmet>
+      <div className='bottomResidencyMain'>
         <div className='bottomResidencyHeader'>
-          <h1>YATIRIM YOLUYLA OTURMA İZNİ</h1>
+          <h1>RESIDENCE PERMIT THROUGH INVESTMENT</h1>
         </div>
         <div className='infoResidencyCardsMain'>
 
           <div className='infoResidencyCardsRows'>
- 
             <div className='infoResidencyCards1'>
               <div className='infoCardUpper'>
                 <img src='/svg_family.svg' alt='family icon' className='infoResidencySvg'/>
-                <span className='infoCardTitle'>Bütün Ailenize Oturum Hakkı</span>
+                <span className='infoCardTitle'>Residence for Your Entire Family</span>
               </div>
               <div className='infoCardLower'>
-                <span>Yatırımınız sayesinde hem siz hem de eşiniz ve hem de 18 yaş altındaki çocuklarınız
-                  oturum kartı sahibi olur.</span>
-                <span>Ayrıca, anne babanınızın engelli veya sürekli bakıma muhtaç olmaları halinde onlar için 
-                  de oturum kartı alabilirsiniz. </span>
+                <span>Thanks to your investment, both you and your spouse, as well as your children
+                   under 18, can obtain a residence card.</span>
+                <span>Additionally, if your parents are disabled or in need of constant care, 
+                  you can obtain a residence card for them as well.</span>
               </div>
             </div>
 
             <div className='infoResidencyCards2'>
               <div className='infoCardUpper'>
                 <img src='/svg_id.svg' alt='ID Card , Residency card icon' className='infoResidencySvg'/>
-                <span className='infoCardTitle'>Önce Geçici sonra Süresiz Oturum</span>
+                <span className='infoCardTitle'>First Temporary, Then Permanent Residence</span>
               </div>
               <div className='infoCardLower'>
-                <span>İlk 5 yıl geçici oturumlarla Letonya'da ikamet eden yatırımcılarımız, 5 yılın sonunda süresiz oturuma 
-                  ve 10. yılın sonunda da Letonya vatandaşlığına başvurabilirler.</span>
-                <span>Süresiz oturum için ilk 5 yılın 4 yılını Letonya'da geçirmiş olmak, ulusal marş,
-                   genel tarih ve biraz Letonca bilmek gerekmektedir.</span>
+                <span>After living in Latvia for 5 years on temporary residence permits, our investors 
+                  can apply for permanent residence at the end of the 5th year.</span>
+                <span>To qualify for permanent residence, you must have spent 4 out of the first 5 years in Latvia.</span>
               </div>
             </div>
-
           </div>
 
           <div className='infoResidencyCardsRows'>
-
             <div className='infoResidencyCards3'>
-                <div className='infoCardUpper'>
-                  <img src='/svg_latvia.svg' alt='application and folder icon' className='infoResidencySvg'/>
-                  <span className='infoCardTitle'>Letonya Vatandaşlığı</span>
-                </div>
-                <div className='infoCardLower'>
-                  <span>Vatandaşlık başvurusu için ilk 5 yıl boyunca geçici oturum, sonra süresiz oturum 
-                    almış olmak ve 10 yıllık sürenin 
-                    çoğunu Letonya'da geçirmiş olmak gerekmektedir. 
-                  </span>
-                  <span>Şartları sağlayan Türk vatandaşları, kendi vatandaşlığını kaybetmeden,
-                  Letonya vatandaşı olabilirler.</span>
-                </div>
+              <div className='infoCardUpper'>
+                <img src='/svg_latvia.svg' alt='application and folder icon' className='infoResidencySvg'/>
+                <span className='infoCardTitle'>Latvian Citizenship</span>
+              </div>
+              <div className='infoCardLower'>
+                <span>To apply for citizenship, you must first hold temporary residence for 5 years, 
+                  then obtain permanent residence, and have spent most of the 10-year period in Latvia.</span>
+              </div>
             </div>
 
             <div className='infoResidencyCards4'>
-                <div className='infoCardUpper'>
-                  <img src='/svg_folder.svg' alt='application and folder icon' className='infoResidencySvg'/>
-                  <span className='infoCardTitle'>Kolay Başvuru Şartları</span>
-                </div>
-                <div className='infoCardLower'>
-                  <span>Program bütün yabancılara açık olup, başvuran kişinin 18 yaş üstü olması ve adli sicil kaydının 
-                    bulunmaması gerekmektedir.
-                  </span>
-                  <span>Başvurular genellikle 2 ila 4 ay arasında sonuçlandırılmakta olup, uzman ekibimiz bu süreci 
-                    daha da kolaylaştırmaktadır.</span>
-                </div>
+              <div className='infoCardUpper'>
+                <img src='/svg_folder.svg' alt='application and folder icon' className='infoResidencySvg'/>
+                <span className='infoCardTitle'>Easy Application Requirements</span>
+              </div>
+              <div className='infoCardLower'>
+                <span>The program is open to all foreigners; the applicant must be over 18 and have no criminal record.</span>
+                <span>Applications are generally finalized in 2 to 4 months, and our expert team makes this process even easier.</span>
+              </div>
             </div>
-
           </div>
 
         </div>
 
         <div>
-            <p className='bottomResUpperText'>2010 yılında başlayan Yatırım Yoluyla Oturum programı kapsamında bugüne kadar yaklaşık 20.000 başvuru yapılmıştır.
-              Program kapsamında Letonya'ya yaklaşık 1.5 milyar Euroluk yatırım yapılmıştır.
-              Letonya'da yatırım yoluyla oturum iznine ilişkin bilgiler karşılaştırmalı olarak aşağıda sunulmaktadır.</p>
-            <table className='companyTypesTable companyTypesTable2'>
-              <tr>
-                <th></th>
-                <th>Gayrımenkul</th>
-                <th>Şirket</th>
-                <th>Faizsiz Devlet Tahvili</th>
-                <th>Banka Mevduatı</th>
-              </tr>
-              <tr>
-                <td><strong>Minimum Yatırım</strong></td>
-                <td>250.000</td>
-                <td>50.000</td>
-                <td>250.000</td>
-                <td>280.000</td>
-              </tr>
-              <tr>
-                <td><strong>Devlet Harcı</strong></td>
-                <td>%1,5 + 12.500</td>
-                <td>10.000</td>
-                <td>38.000</td>
-                <td>25.000</td>
-              </tr>
-              <tr>
-                <td><strong>Yatırımın değer kazanması</strong></td>
-                <td>Mümkün</td>
-                <td>Değil</td>
-                <td>Mümkün</td>
-                <td>Mümkün</td>
-              </tr>
-              <tr>
-                <td><strong>Yatırımdan aylık/senelik kâr</strong></td>
-                <td>Mümkün</td>
-                <td>Değil</td>
-                <td>Değil</td>
-                <td>Mümkün</td>
-              </tr>
-              <tr>
-                <td><strong>Risk Seviyesi</strong></td>
-                <td className='greenCube'>Düşük</td>
-                <td className='redCube'>Yüksek</td>
-                <td className='greenCube'>Çok düşük</td>
-                <td className='greenCube'>Çok düşük</td>
-              </tr>
-            </table>
-          </div>
-          <div className='bottomCompanyText bottomCompanyText2'>
-            <h3>1. Gayrımenkul Yatırımı</h3>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 
-              + %1,5 tapu harcı + Harç 12.500 + Danışmanlık 6.000 = Toplam 271.750 Euro</p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Letonya emlak fiyatları diğer AB
-              ülkelerine kıyasla oldukça uygun olup, 2025 yılı itibariyle ülkemizden bile ucuzdur. En çok tavsiye ettiğimiz 
-              yatırım türüdür.
-              </p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında herşey dahil anahtar
-              ve oturum kartı teslim fiyatımız 5000 Euro'dur. Alacağınız emlakın en az 250.000 Euro olacağı olacağı düşünüldüğünde,
-              harçlar ve danışmanlık ücretimiz ile birlikte ödeyeceğiniz toplam para yaklaşık 280.000 Euro olacaktır.
-              </p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Program kapsamında sadece Letonya'da 
-              vergi ödeyen bir şirketten, Leton vatandaşlarından veya Letonya'da yaşayan bir yabancıdan (AB vatandaşı ve uzun süre oturum izinli) 
-              emlak alabilirsiniz. Emlak bedelinin banka transferi
-              ile yapılması gerekmekte olup, alacağınız gayrımenkulün satış bedelinin en az 250.000 Euro ve tapuda kayıtlı 
-              kadastro değerinin de en az 80.000 Euro olması gerekmektedir. Tarım ve orman arazileri program kapsamı
-               dışındadır. Üzerine ev ve apartman inşa edilebilecek arsalar program dahilindedir. 
-              </p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Gayrımenkul yatırımı en çok tavsiye ettiğimiz
-              yatırım türü olup, alacağınız emlakın her sene değer kazanması ve üstüne kira geliri elde etmeniz mümkündür. 
-              Riga emlak piyasasını yakından takip eden uzman ekibimiz doğru gayrımenkul seçiminde size pekçok opsiyon sunacaktır.
-              </p>
-            <h3>2. Şirket Yatırımı</h3>
-              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 50.000 + Harç 10.000 
-              + Danışmalığımız 6.000 = Toplam 66.000</p>
-              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Letonya'da kayıtlı bir şirkete yatırım 
-              yapılarak alınan, en ucuz ama pek tavsiye etmediğimiz yatırım türüdür. Şirket yatırımı 2 şekilde olabilir: <br/>
-              <strong>50.000 Euro</strong>: En fazla 50 çalışanı ve senelik cirosu 10 milyon Euro'dan az şirketler <br/>
-              <strong>100.000 Euro</strong>: Diğer şirketler
-              </p>
-              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Şirket yatırımı ucuz olsa da
-              yatırımızın değer kazanması ve yatırımınızdan aylık veya senelik kâr elde etmeniz pratikte pek mümkün olmayabilir.
-              Ayrıca, yatırımınızın karşılığı olarak aldığınız hisseleri birgün satmak istemeniz halinde, aldığınız bedelin
-              çok altında ve hatta hiç alıcı olmazsa sıfır bedelle satmanız gerekebilir. Dahası, hissesini aldığınız şirket
-              eğer iflas ederse alacağınız oturum kartı iptal edilecektir. Özetle, şirket yatırımı için ayırdığınız para size
-              sadece oturum kartı verecek olup, o paranın geri dönüşünün ve kârının olmayabileceğini gözönünde bulundurmanızı 
-              tavsiye ederiz.</p>
-              <p>Bir şirkete oturum izni amacıyla en fazla 10 yabancı başvurabilir.</p>
-            <h3>3. Faizsiz Devlet Tahvili</h3>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 250.000 + Harç 38.000 
-              + Danışmalığımız 6.000 = Toplam 294.000</p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Faizsiz devlet tahvillerine yapacağınız
-              yatırım sayesinde oturum alabilirsiniz. Gayrımenkul ve Şirket yatırımlarına göre daha kolay, banka mevduatı yatırımına 
-              göre daha garanti bir opsiyon olarak görülebilir. 
-              </p>
-              <p><img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Faizsiz devlet tahvillerinin faiz geliri
-              olmasa da tahvillerin alış fiyatı ile tahvil süresi sonundaki nominal fiyatı arasındaki farktan kâr elde edilebilir.
-              Örnek olarak: <br/> <br/>
-              Alış fiyatı: 900 <br/>
-              Nominal fiyat: 1000 <br/>
-              Kar: 100 <br/> <br/>
-              Müşteri alış fiyatından tahvili alır. Devlet de tahvil süresi sonunda nominal fiyattan tahvili geri alır. 
-              Nominal fiyat ile alış fiyatı arasındaki farktan elde edilen kâr, genelde banka mevduatı faizinden elde edilen 
-              kârdan biraz daha yüksektir.  
-              </p>   
-            <h3>4. Banka Mevduatı</h3>
-              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Minimum yatırım 280.000 + Harç 25.000 
-              + Danışmalığımız 6.000 = Toplam 311.000</p>
-              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Banka mevduatı oldukça güvenli bir
-              yatırım türü olup, ayrıca senelik %8'e varan faiz geliri de elde etmeniz mümkündür. Yani 280.000 Euroluk yatırımınızı
-              5 sene sonra 390.000 Euro olarak geri alabilirsiniz.
-              </p>
-              <p><img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  Letonya'daki bankalara yapacağınız 
-              mevduat transferinin en az 280.000 Euro olması gerekmektedir. Mevduatınız banka sisteminde 
-              "ikincil yükümlülük" ("Subordinate liability") olarak kayıt edilecek olup, bunun manası olur da banka iflas 
-              ederse bankadan birincil alacağı olan kişi ve kurumlar bittikten sonra sıranın size gelmesidir. Bankanın 
-              iflas etmesini düşük bir ihtimal olarak değerlendirirsek, bu detayın çok da önemli olmayabileceği düşünülebilir.</p> 
-            <h2>Gerekli Belgeler</h2>
-            <div className="list-type5">
-              <ol>
-              
-                <li>Pasaport</li>
-                <li>Başvuru sahibinin Letonya'da yaşayacağı adres</li>
-                <li>Sağlık sigortası</li>
-                <li>Fotoğraf</li>
-                <li>Başvuru harçlarının ödendiğine ilişkin makbuzlar. Başvuru harçları genel olarak 100-500 Euro arasında değişir.
-                  Başvurunuza aile üyeleriniz de dahilse, her aile üyesi için ayrı ayrı harç ödenir.
-                   (Başvuru harçları ile Devlet harçları farklıdır. Devlet
-                  harçları başvuru onaylandıktan sonra ödenir)</li>
-                <li>Yatırım türüne göre düzenlenen belgeler: Tapu belgesi, devlet tahvil alımını gösterir 
-                  belgeler, banka mevduatını gösterir belgeler, şirket yatırımını gösterir ticaret sicil kayıtları vb.</li>
-                <li>Adli sicil kaydınız olmadığına dair belge. Türkiye'den alırsanız belgeyi Letonca'ya tercüme ettirmeniz
-                  ve apostil yapmanız gerekecektir. Bunun yerine belgeyi Letonya'daki Riga Büyükelçiliğinden alabilirsiniz. 
-                  Böylelikle apostil veya tercüme yapmanıza gerek kalmaz, üstelik ücretsiz.
-                </li>
-                <li>Yatırım meblağını nasıl kazandığınıza ilişkin belgeler. Şirket sahibiyseniz, şirketiniz bilanço, kâr
-                  belgeleri vb gibi. Yada Türkiye'deki evinizi satıp, satış meblağını gösterebilirsiniz.
-                </li>
-                <li>Letonya'da hayat masraflarını karşılayacak kadar bankada paranız olduğunu gösterir belge. Gayrımenkul için
-                  başvuru sahibi 2220, eşi 740, her bir çocuk 222 Euro. Diğer yatırımlar için başvuru sahibi 740, eşi 740, her
-                  bir çocuk 222 Euro. Aylık olan bu meblağlar yıllık bazda çarpılarak toplam meblağ bulunur.
-                </li>
-                <li>Başvuruya eş ve çocuklar da dahilse, evlilik belgeleri ve doğum belgeleri gerekecektir. 
-                </li>
-                <li>İstenilen bütün belgelerin orijinallerinin, Letonca tercümelerinin ve fotokopilerinin sunulması
-                  gerekmektedir. Devlet kurumlarımız tarafından verilen bazı belgelerin ayrıyeten apostilli olması gerekmektedir.
-                </li>
-                <li>Başvuru evraklarının hazırlanması konusunda uzman ekibimiz her türlü yardımı ve kolaylığı sağlayacaktır.</li>
-              </ol>
-            </div>
+          <p className='bottomResUpperText'>
+            Since the Investment-Based Residency program began in 2010, approximately 20,000 applications have been submitted.
+            Under this program, around 1.5 billion Euros have been invested in Latvia.
+            Below is a comparative summary of information on obtaining a residence permit in Latvia through investment.
+          </p>
+          <table className='companyTypesTable companyTypesTable2'>
+            <tr>
+              <th></th>
+              <th>Real Estate</th>
+              <th>Company</th>
+              <th>Government Bond</th>
+              <th>Bank Deposit</th>
+            </tr>
+            <tr>
+              <td><strong>Minimum Investment</strong></td>
+              <td>250,000</td>
+              <td>50,000</td>
+              <td>250,000</td>
+              <td>280,000</td>
+            </tr>
+            <tr>
+              <td><strong>State Fee</strong></td>
+              <td>1.5% + 12,500</td>
+              <td>10,000</td>
+              <td>38,000</td>
+              <td>25,000</td>
+            </tr>
+            <tr>
+              <td><strong>Appreciation in Value</strong></td>
+              <td>Possible</td>
+              <td>Not possible</td>
+              <td>Possible</td>
+              <td>Possible</td>
+            </tr>
+            <tr>
+              <td><strong>Monthly/Annual Return on Investment</strong></td>
+              <td>Possible</td>
+              <td>Not possible</td>
+              <td>Not possible</td>
+              <td>Possible</td>
+            </tr>
+            <tr>
+              <td><strong>Risk Level</strong></td>
+              <td className='greenCube'>Low</td>
+              <td className='redCube'>High</td>
+              <td className='greenCube'>Very low</td>
+              <td className='greenCube'>Very low</td>
+            </tr>
+          </table>
+        </div>
+        <div className='bottomCompanyText bottomCompanyText2'>
+          <h3>1. Real Estate Investment</h3>
+          <p>
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
+            Minimum investment 250,000 + 1.5% deed fee + 12,500 state fee + 6,000 consulting = Total 271,750 Euros
+          </p>
+          <p>
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
+            Real estate prices in Latvia are quite affordable compared to other EU countries, and as of 2025, they are even cheaper than in our own country. This is our most recommended type of investment.
+          </p>
+          <p>
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
+            Under the program, our all-inclusive key and residence card handover price is 5,000 Euros. Considering that the property you’ll buy will cost at least 250,000 Euros, along with fees and our consulting charge, the total amount you’ll pay will be around 280,000 Euros.
+          </p>
+          <p>
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
+            Under the program, you can only purchase real estate from a company paying taxes in Latvia, from Latvian citizens, or from a foreigner living in Latvia (an EU citizen or someone with a long-term residence permit). Payment for the property must be made via bank transfer, the purchase price must be at least 250,000 Euros, and the property’s registered cadastral value must be at least 80,000 Euros. Agricultural and forest land are excluded from the program, but plots where a house or apartment can be built are included.
+          </p>
+          <p>
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
+            We strongly recommend real estate investment because the property you purchase can appreciate in value every year, and you can earn rental income on top of that. Our expert team closely follows the Riga real estate market and can offer you many options to help you choose the right property.
+          </p>
 
-            <h2>Süreç</h2>
-            <p><strong>Birinci Ay</strong>: Müşterimizle iletişim, yatırım aracının seçilmesi, Müşterimizin danışmanlık 
-            ücretini ödemesi, vize başvuru ve oturum kartı başvuruları 
-            için evrak hazırlığı</p>
-            <p><strong>İkinci Ay</strong>: Müşterimizin Letonya'ya gelmesi, yatırım türüne göre ziyaretlerin ve 
-              görüşmelerin yapılması. Başvuru ile ilgili prosedürlerin ve belgelerin imzalanması, yatırım tutarının 
-              ilgili hesaplara transferi, başvuru dosyasının PMLP'ye sunulması</p>
-            <p><strong>Dördüncü Ay</strong>: Başvurunun PMLP tarafından değerlendirilmesi yaklaşık 450 Euro harç ödenmesi
-              durumunda 5 gün, diğer durumlarda yaklaşık 50 gün sürebilmektedir. Genel olarak ise 30 günde başvuru
-              sonuçlandırılmaktadır.
-               Başvuru olumlu sonuçlandığında, yatırım için ödenmesi gereken devlet harçları da ilgili hesaplara
-              transfer edilir. Müşterimiz tekrar Letonya'ya gelir ve hayırlı olması dileklerimizle oturum 
-              kartını elden teslim alır.</p>
-            <p>Yaklaşık 3 veya 4 ay süren bu süreçte Müşterimizin yanında olduğumuz gibi, müşterimizin Letonya'ya gelememesi 
-              durumlarında da gerekli yardım ve yönlendirmeyi sağlıyoruz.</p>
+          <h3>2. Company Investment</h3>
+          <p>
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
+            Minimum investment 50,000 + 10,000 state fee + 6,000 consulting = Total 66,000
+          </p>
+          <p>
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
+            This involves investing in a company registered in Latvia. It’s the cheapest but not highly recommended. There are two ways to invest in a company: <br/>
+            <strong>50,000 Euros</strong>: Companies with a maximum of 50 employees and annual turnover under 10 million Euros <br/>
+            <strong>100,000 Euros</strong>: Other companies
+          </p>
+          <p>
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
+            Although a company investment is cheaper, your investment is unlikely to appreciate or generate monthly or yearly profits in practice. Also, if you ever want to sell the shares you acquired, you might have to sell at a much lower price—or possibly zero if no buyer is found. Moreover, if the company whose shares you purchased goes bankrupt, your residence card will be canceled. In short, the funds allocated for a company investment essentially only grant you a residence card. Keep in mind that there may be no return or profit on your investment.
+          </p>
+          <p>A maximum of 10 foreign nationals can apply for a residence permit in the same company.</p>
+
+          <h3>3. Zero-Interest Government Bond</h3>
+          <p>
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
+            Minimum investment 250,000 + 38,000 state fee + 6,000 consulting = Total 294,000
+          </p>
+          <p>
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
+            Investing in zero-interest government bonds allows you to obtain a residence permit. Compared to real estate and company investments, this can be seen as an easier option than company investments and more secure than a bank deposit.
+          </p>
+          <p>
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
+            While these government bonds do not pay interest, you can profit from the difference between the purchase price and the nominal price at the end of the bond’s term. For example: <br/> <br/>
+            Purchase price: 900 <br/>
+            Nominal price: 1000 <br/>
+            Profit: 100 <br/> <br/>
+            The customer buys the bond at the purchase price, and at the end of the bond’s term, the government repurchases it at the nominal price. The profit from the difference between the nominal price and the purchase price is generally slightly higher than what you would earn from bank deposit interest.
+          </p>
+
+          <h3>4. Bank Deposit</h3>
+          <p>
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
+            Minimum investment 280,000 + 25,000 state fee + 6,000 consulting = Total 311,000
+          </p>
+          <p>
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
+            A bank deposit is a very secure type of investment, and you can earn up to 8% annual interest. That means you could get 390,000 Euros back after 5 years on your 280,000-Euro investment.
+          </p>
+          <p>
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
+            You must deposit at least 280,000 Euros into a Latvian bank. Your deposit will be recorded in the bank’s system as a “subordinate liability,” which means that if the bank goes bankrupt, the primary claim holders will be paid before you. Since the likelihood of the bank going bankrupt is considered low, this detail may not be particularly significant.
+          </p>
+
+          <h2>Required Documents</h2>
+          <div className="list-type5">
+            <ol>
+              <li>Passport</li>
+              <li>The address where the applicant will live in Latvia</li>
+              <li>Health insurance</li>
+              <li>Photo</li>
+              <li>Receipts for the application fees. These generally range from 100 to 500 Euros. If your family members are included in the application, each family member pays an additional fee. (Note that application fees differ from state fees; state fees are paid after the application is approved.)</li>
+              <li>Documents specific to the type of investment: Deed for property ownership, proof of government bond purchase, proof of bank deposit, commercial register documents for company investment, etc.</li>
+              <li>A document stating that you have no criminal record, its Latvian translation and apostille.</li>
+              <li>Documents showing how you obtained the investment amount. If you own a company, provide balance sheets, profit statements, etc. Or you could show the sale amount of a property you sold in your country.</li>
+              <li>Proof of sufficient funds in a bank to cover your living expenses in Latvia. For real estate, the applicant needs 2,220 Euros, spouse 740 Euros, and each child 222 Euros. For other investments, the applicant and spouse each need 740 Euros, and each child 222 Euros. These monthly amounts are multiplied by 12 to calculate the annual total.</li>
+              <li>If you are including your spouse and children in the application, you also need marriage and birth certificates.</li>
+              <li>All original documents, translations into Latvian, and photocopies must be submitted. Some documents issued by governmental institutions also require an apostille.</li>
+              <li>Our expert team will provide every assistance and convenience in preparing these documents.</li>
+            </ol>
           </div>
 
-          <div className='bottomCompanyLinks bottomCompanyLinks2'>
-              <br/>
-              Daha detaylı bilgi için:
-                <li>
-                  <a href='https://www.pmlp.gov.lv/en/real-estate-owner-01072016'>
-                    Letonya Göç İdaresi Kurumu (Pilsonības un migrācijas lietu pārvalde PMLP)
-                  </a>
-                </li>
+          <h2>Process</h2>
+          <p><strong>First Month</strong>: Initial communication with the client, selection of the investment, 
+          payment of consulting fee, and preparation of documents for visa and residence permit applications.</p>
+          <p><strong>Second Month</strong>: The client arrives in Latvia. Depending on the type of investment, 
+          visits and meetings take place. All application procedures and documents are signed, 
+          the investment amount is transferred to the relevant accounts, and the application 
+          file is submitted to PMLP (Office of Citizenship and Migration Affairs).</p>
+          <p><strong>Fourth Month</strong>: The PMLP review process can take 5 days if a fee of 
+          about 450 Euros is paid, or around 50 days otherwise. Generally, applications are 
+          processed within about 30 days. Once approved, the state fees for the investment are 
+          transferred to the relevant accounts. The client then returns to Latvia and, with our 
+          best wishes, receives the residence card in person.</p>
+          <p>During this roughly 3 to 4 month process, we stand by our client; if they 
+            cannot travel to Latvia, we provide all necessary assistance and guidance.</p>
+        </div>
 
-                <li>
-                  <a href='https://www.vid.gov.lv/en'>
-                    Devlet Gelir İdaresi (Valsts ieņēmumu dienests VID)
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.liaa.gov.lv/en/invest-latvia'>
-                    Letonya Yatırım ve Kalkınma Ajansı (Latvijas Investīciju un attīstības aģentūra LIAA)
-                  </a>
-                </li>
-                <li>
-                  <a href='https://lawyerslatvia.com/latvia-citizenship-by-investment/'>
-                    Lawyers Latvia Kurumsal Hizmetler Firması
-                  </a>
-                </li>
-                <li>
-                  <a href='https://immigrantinvest.com/blog/latvia-residence-permit-by-investment-en/'>
-                    Immigrant Invest Kurumsal Hizmetler Firması
-                  </a>
-                </li>
-                <li>
-                  <a href='https://passports.io/'>
-                    Passports.io Kurumsal Hizmetler Firması
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.goldenvisas.com/latvia'>
-                    La Vida Kurumsal Hizmetler Firması
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.residency-bond.eu/latvia-bank.html'>
-                    RCP Kurumsal Hizmetler Firması
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.henleyglobal.com/'>
-                    Henley Global Kurumsal Hizmetler Firması
-                  </a>
-                </li>
-            </div>
-          
-            <div> <br/><br/><br/><br/><br/><br/><br/> </div>
-            </div>
-            <div className='footerArea'> <Footer /> </div>
+        <div className='bottomCompanyLinks bottomCompanyLinks2'>
+          <br/>
+          For more detailed information:
+            <li>
+              <a href='https://www.pmlp.gov.lv/en/real-estate-owner-01072016'>
+                Latvian Office of Citizenship and Migration Affairs (Pilsonības un migrācijas lietu pārvalde, PMLP)
+              </a>
+            </li>
+            <li>
+              <a href='https://www.vid.gov.lv/en'>
+                State Revenue Service (Valsts ieņēmumu dienests, VID)
+              </a>
+            </li>
+            <li>
+              <a href='https://www.liaa.gov.lv/en/invest-latvia'>
+                Investment and Development Agency of Latvia (Latvijas Investīciju un attīstības aģentūra, LIAA)
+              </a>
+            </li>
+            <li>
+              <a href='https://lawyerslatvia.com/latvia-citizenship-by-investment/'>
+                Lawyers Latvia Corporate Services
+              </a>
+            </li>
+            <li>
+              <a href='https://immigrantinvest.com/blog/latvia-residence-permit-by-investment-en/'>
+                Immigrant Invest Corporate Services
+              </a>
+            </li>
+            <li>
+              <a href='https://passports.io/'>
+                Passports.io Corporate Services
+              </a>
+            </li>
+            <li>
+              <a href='https://www.goldenvisas.com/latvia'>
+                La Vida Corporate Services
+              </a>
+            </li>
+            <li>
+              <a href='https://www.residency-bond.eu/latvia-bank.html'>
+                RCP Corporate Services
+              </a>
+            </li>
+            <li>
+              <a href='https://www.henleyglobal.com/'>
+                Henley Global Corporate Services
+              </a>
+            </li>
+        </div>
+
+        <div> <br/><br/><br/><br/><br/><br/><br/> </div>
+      </div>
+      <div className='footerArea'> <Footer /> </div>
     </div>
   )
 }
 
-export default BottomResidency
+export default BottomResidency;

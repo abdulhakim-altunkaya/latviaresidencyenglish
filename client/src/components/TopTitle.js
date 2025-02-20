@@ -7,9 +7,8 @@ function TopTitle() {
 
   return (
     <div className='AreaTopTitle'>
-      <span onClick={ () => navigate("/")} className='titleSpan'>Latvia Residence – Riga Consulting</span> &nbsp;&nbsp;
+      <span onClick={ () => navigate("/")} className='titleSpan'>Latvia Residence – Riga Consulting</span>&nbsp;&nbsp;
       <span><img src='/iconLV.png' alt='Latvia Flag'/></span> &nbsp;&nbsp;
-      <span><img src='/iconTR.png' alt='Turkey Flag'/></span>
     </div>
   )
 }

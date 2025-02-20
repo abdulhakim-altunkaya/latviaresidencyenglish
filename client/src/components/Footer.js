@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer" role="contentinfo" aria-label="Footer">
       <div className="footer-content">
         <p>E-mail: <a href="mailto:letonyaoturum@gmail.com" 
-          aria-label="Email contact to letonyaoturum@gmail.com">letonyaoturum@gmail.com</a></p>
+          aria-label="Email contact to letonyaoturum@gmail.com">residencylatvia@gmail.com</a></p>
         <p>Telephone/WhatsApp: +371 20669310</p>
         <div className="footer-header">
           <p>Icons:&nbsp;

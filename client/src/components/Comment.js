@@ -6,17 +6,17 @@ function Comment() {
     const [name, setName] = useState("");
     const [text, setText] = useState("");
 
-    const commentTitle1 = "İsim-Soyisim";
-    const commentTitle2 = "Soru/Yorum";
-    const commentTitle3 = "Kaydet";
+    const commentTitle1 = "Name - Surname";
+    const commentTitle2 = "Comment/Question";
+    const commentTitle3 = "Save";
 
     const handleSubmit = async (e) => {
         if (name.length > 30 || text.length > 300) {
-            alert("İsim alanı çok uzun");
+            alert("Name too long");
             return;
         }
         if(name.length < 5 || text.length < 5) {
-            alert("İsim alanı çok kısa");
+            alert("Name too short");
             return;
         }
         e.preventDefault();
@@ -32,16 +32,16 @@ function Comment() {
                 alert(response.data.message);
             } catch (error) {
                 if (error.response && error.response.status === 429) {
-                    alert("Yeni yorum için biraz bekleyiniz.");
+                    alert("Please wait for new comment.");
                 } else {
-                    alert("Yorum kaydedilirken hata oluştu. Lütfen daha sonra tekrar deneyiniz.");
+                    alert("Error while saving the comment. Please try again later.");
                 } 
             } finally {
                 setName("");
                 setText("");
             }
         } else {
-            alert("Bütün alanları doldurunuz.");
+            alert("Please fill out all fields");
         } 
     }
     return (
@@ -50,12 +50,12 @@ function Comment() {
                 <div className="form-group">
                     <input type='text' id='name' required maxLength={30} 
                         value={name} placeholder={commentTitle1}
-                        onChange={ (e) => setName(e.target.value)} aria-label="İsim soyisim" />
+                        onChange={ (e) => setName(e.target.value)} aria-label="Name Surname" />
                 </div>
                 <div className="form-group">
                     <textarea type='text' id='text' required maxLength={300}
                         value={text} placeholder={commentTitle2}
-                        onChange={ (e) => setText(e.target.value)} aria-label="Soru veya yorumlarınız" > 
+                        onChange={ (e) => setText(e.target.value)} aria-label="Comments and questions" > 
                     </textarea>
                 </div>
                 <button type='submit' aria-label={commentTitle3}>{commentTitle3}</button>

@@ -41,7 +41,6 @@ function BottomSSS() {
       } else if (num === 31) {
         setIsVisible31(!isVisible31);
       }
-      
     }
 
   return (
@@ -49,154 +48,163 @@ function BottomSSS() {
 
       {/* Helmet for SEO */}
       <Helmet>
-        <title>SIK SORULAN SORULAR | Letonya Oturum</title>
+        <title>FREQUENTLY ASKED QUESTIONS | Latvia Residence</title>
         <meta
           name="description"
-          content="Letonya'da oturum, vatandaşlık ve yatırım konularında en çok merak edilen soruların 
-          yanıtlarını burada bulabilirsiniz. Oturum, şirket kurma, yatırım, vatandaşlık hakkında nasıl alınır"
+          content="Find answers to the most frequently asked questions about residency, citizenship, and investment in Latvia here. How to obtain residency, set up a company, invest, and get citizenship."
         />
         <meta
           name="keywords"
-          content="Letonya, oturum izni, vatandaşlık, yatırım, sık sorulan sorular"
+          content="Latvia, residence permit, citizenship, investment, frequently asked questions"
         />
       </Helmet>
       
       <div className='questionsArea'>
-        <h2>SIK SORULAN SORULAR</h2>
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(21)}>
-            <div>Geçici ve süresi oturum farkı nedir?</div>
+            <div>What is the difference between temporary and permanent residence?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible21 ? 
             <div className='questionAtbildi'>
-            Yatırım yoluyla oturum başvurunuz onayladığında size ilk beş yıl boyunca geçici oturumlar verilir. Bu 
-            oturumlar bazen birer yıllık bazen de daha uzun olabilir. Beşinci yılın sonunda ise yatırımınız
-            eğer hala aynı şekilde devam ediyorsa bu defa süresiz oturuma başvurabilirsiniz. Süresiz oturum için
-            geçici oturumlarla Letonya'da en az 4 yıl geçirmiş olmak gerekir. Yoksa yine geçici oturum alırsınız.</div>
+              Once your residency-by-investment application is approved, you will be issued 
+              temporary residence permits for the first five years. These permits can 
+              sometimes be granted for one year at a time or for longer. At the end of 
+              the fifth year, if your investment is still maintained as it was, you can 
+              then apply for permanent residence. To be eligible for permanent residence,
+               you must have spent at least 4 years in Latvia with temporary residence. 
+               Otherwise, you would receive another temporary residence permit.
+            </div>
           : <></> }
-
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(22)}>
-            <div>Letonya vatandaşlığı alabilir miyim?</div>
+            <div>Can I obtain Latvian citizenship?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible22 ? 
           <div className='questionAtbildi'>
-            Vatandaşlık için önce 5 yıl boyunca geçici oturumlar, beşinci yılın sonunda da sonra süresiz oturum 
-            almalısınız. Letonya'daki
-            sürenizin 10.yılında vatandaşlık için başvurabilirsiniz. Vatandaşlık için Letonya tarihini, 
-            dilini ve genel kültürünü de bilmeniz gerekmektedir.</div>
+            To apply for citizenship, you must first hold temporary residence for 5 years, 
+            and then obtain permanent residence at the end of the fifth year. In your 10th 
+            year in Latvia, you can apply for citizenship. You also need to have knowledge 
+            of Latvian history, language, and general culture.
+          </div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(23)}>
-            <div>Geçici oturum iznini 5 yıl sonra süresiz oturum iznine çevirebilir miyim?</div>
+            <div>Can I convert my temporary residence permit into a permanent residence permit after 5 years?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible23 ? 
           <div className='questionAtbildi'>
-              Evet, A2 seviyesinde Letonca bilmeniz, 5 yıl boyunca aldığınız oturum süresinin 4 yılını 
-              Letonya'da geçirmiş olmanız halinde süresiz 
-              oturum alabilirsiniz. Yoksa, tekrardan geçici oturum alırsınız.  </div>
+            Yes, if you have A2-level Latvian language skills and have spent 4 out 
+            of those 5 years in Latvia under your residence permit, you can obtain permanent 
+            residence. Otherwise, you will simply renew your temporary residence permit.
+          </div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(24)}>
-            <div>Süresiz oturum almam ve Letonya'da yaşamam şart mı</div>
+            <div>Is it mandatory to get permanent residence and live in Latvia?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible24 ? 
           <div className='questionAtbildi'>
-            Şart değildir. Eğer süresiz oturum izni şartlarını sağlayamıyorsanız, o zaman pekala tekrardan geçici oturum 
-            iznini alabilirsiniz. Bunun için yatırımınızı olduğu gibi muhafaza etmiş olmanız gerekmektedir. 
-            Beş yıl sonra yapacağınız geçici oturum kartı için 5000 Euro başvuru harcı ödenir. Bu oturum kartı 
-            için başvurunuzu son oturum kartınızın süresi bitmeden veya süresi bittikten sonraki
-            40 gün içerisinde yapmanız gerekmektedir. Eğer bu süreyi kaçırırsanız, o zaman sil baştan 
-            yeni başvuru yapar gibi başvuru yapmanız gerekir, ki bu durumda bütün harçları tekrar ödemek 
-            durumunda kalırsınız. Yatırımınızı koruduğunuz sürece, her zaman geçici
-            oturum kartı alabilirsiniz. Geçici oturum kartları 
-            için Letonca bilmeniz veya Letonya'da yaşamanız şart değildir.</div>
+            It is not mandatory. If you do not meet the conditions for permanent residence, 
+            you can simply apply again for a temporary residence permit. To do this, you must 
+            have maintained your investment in its original form. After five years, there is 
+            an application fee of 5,000 Euros for another temporary residence card. You must 
+            submit your application before your current residence card expires or within 40 
+            days after it expires. If you miss this window, you would have to reapply from 
+            the beginning and pay all fees again. As long as you maintain your investment, 
+            you can always obtain a temporary residence card. Temporary residence cards 
+            do not require knowledge of Latvian or continuous residence in Latvia.
+          </div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(25)}>
-            <div>Oturum kartı başvurum reddedilirse veya başvurudan vazgeçersem danışmanlık ücretim iade edilir mi?</div>
+            <div>If my residence card application is denied or if I withdraw my 
+              application, is my consulting fee refunded?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible25 ? 
           <div className='questionAtbildi'>
-              Oturum kartı başvurunuzun reddedilmesi veya başvurudan vazgeçmeniz halinde firmamıza ödediğiniz ücretin yarısı
-              30 gün içerisinde iade edilir. Vize başvurunuzun reddedilmesi halinde ise danışmanlık ücretinin 2/3 iade edilir.</div>
+            If your residence card application is denied or you withdraw it, half of the fee 
+            you paid to our company will be refunded within 30 days. In the event your visa 
+            application is denied, two-thirds of the consulting fee is refunded.
+          </div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(26)}>
-            <div>Geçici oturum izniyle başka bir AB ülkesinde çalışabilir miyim?</div>
+            <div>Can I work in another EU country with my temporary residence permit?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible26 ? 
           <div className='questionAtbildi'>
-            Hayır. Uzun süreli oturum izinleriyle başka bir AB ülkesinde çalışmak istemeniz halinde, 
-            o ülkenin koyduğu ilave şartları karşılamak durumundasınız. Sözkonusu şartlar her AB ülkesinde 
-            farklılık göstermektedir.</div>
+            No. If you want to work in another EU country under a long-term residence permit, 
+            you must meet additional requirements set by that country. These requirements 
+            vary from one EU country to another.
+          </div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(27)}>
-            <div>Yatırım yoluyla oturum programına bütün ülkeler başvurabilir mi?</div>
+            <div>Can all nationalities apply for the residency-by-investment program?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible27 ? 
           <div className='questionAtbildi'>
-              Bütün yabancılar başvurabilir. Herhangi bir sınırlama bulunmamaktadır</div>
+            All foreign nationals can apply. There are no restrictions.
+          </div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(28)}>
-            <div>Vatandaşlık şartlarını sağlarsam, çifte vatandaşlık alabilir miyim?</div>
+            <div>If I meet the requirements for citizenship, can I hold dual citizenship?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible28 ? 
           <div className='questionAtbildi'>
-            NATO ve AB ülke vatandaşları çifte vatandaşlık alabilirler. Yani Türk vatandaşı olarak çifte
-            vatandaşlık alabilirsiniz.</div>
+            Citizens of NATO and EU countries can have dual citizenship. 
+          </div>
           : <></> }
         </div>
 
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(29)}>
-            <div>Vize konusunda yardımcı oluyor musunuz?</div>
+            <div>Do you provide assistance with visas?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible29 ? 
           <div className='questionAtbildi'>
-            Evet, başvuru formunun doldurulmasına, 
-            evrakların hazırlamasına ve randevu alınmasına yardımcı oluyoruz.</div>
+            Yes, we help with filling out the application form, preparing the documents, and making the appointment.
+          </div>
           : <></> }
         </div>
         
-      
         <div className='questionCards'>
           <div className='questionJautajums' onClick={ () => toggleAnswer(30)}>
-            <div>Geçici oturum kartını aldıktan hemen sonra yatırımımı satabilir miyim?</div>
+            <div>Can I sell my investment immediately after receiving the temporary residence card?</div>
             <div><img src='/svg_plus.svg' className='plusSign' alt='plus icon'/></div>
           </div>
           {isVisible30 ? 
           <div className='questionAtbildi'>
-            Oturum aldıktan sonra yatırımınızı satmanız halinde oturumunuz iptal edilir.</div>
+            If you sell your investment after obtaining the residence card, your residence permit will be canceled.
+          </div>
           : <></> }
         </div>   
       
-        
       </div>
       <div> <br/><br/><br/><br/><br/><br/><br/> </div>
       <div className='footerArea'> <Footer /> </div>

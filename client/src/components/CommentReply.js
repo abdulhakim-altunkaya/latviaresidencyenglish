@@ -6,18 +6,18 @@ function CommentReply({commentId2, cancelReply}) {
     const [name, setName] = useState("");
     const [text, setText] = useState("");
 
-    const [commentTitle1, setCommentTitle1] = useState("İsim soyisim");
-    const [commentTitle2, setCommentTitle2] = useState("Yorum");
-    const [commentTitle3, setCommentTitle3] = useState("Kaydet")
-    const [commentTitle4, setCommentTitle4] = useState("İptal")
+    const [commentTitle1, setCommentTitle1] = useState("Name-Surname");
+    const [commentTitle2, setCommentTitle2] = useState("Comment");
+    const [commentTitle3, setCommentTitle3] = useState("Save")
+    const [commentTitle4, setCommentTitle4] = useState("Cancel")
     
     const handleSubmit = async (e) => {
         if (name.length > 30 || text.length > 300) {
-            alert("İsim alanı çok uzun");
+            alert("Name area too long");
             return;
         }
         if(name.length < 5 || text.length < 5) {
-            alert("İsim alanı çok kısa");
+            alert("Name area too short");
             return;
         }
         e.preventDefault();
@@ -34,16 +34,16 @@ function CommentReply({commentId2, cancelReply}) {
                 alert(response.data.message);
             } catch (error) {
                 if (error.response && error.response.status === 429) {
-                    alert("Yeni yorum için bekleyiniz");
+                    alert("Please wait for new comment");
                 } else {
-                    alert("Yorum kaydedilirken hata oluştu. Lütfen daha sonra tekrar deneyiniz.");
+                    alert("Error while saving the comment. Please try again later.");
                 } 
             } finally {
                 setName("");
                 setText("");
             }
         } else {
-            alert("Lütfen bütün alanları doldurun");
+            alert("Please fill out all areas");
         } 
     }
 

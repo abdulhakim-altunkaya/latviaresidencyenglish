@@ -29,14 +29,14 @@ app.post("/api/save-message", async (req, res) => {
     };
     client = await pool.connect();
     const result = await client.query(
-      `INSERT INTO latviaresidency_messages (name, email, message, visitdate) 
+      `INSERT INTO en_latviaresidency_messages (name, email, message, visitdate) 
       VALUES ($1, $2, $3, $4)`, 
       [msgLoad.name1, msgLoad.email1, msgLoad.message1, msgLoad.visitDate1]
     );
-    res.status(200).json({message: "Mesajınız gönderildi."});
+    res.status(200).json({message: "Your message is sent."});
   } catch (error) {
     console.log(error.message);
-    res.status(500).json({ error: 'Mesaj kaydedilirken hata oluştu. Lütfen doğrudan mail atınız.' });
+    res.status(500).json({ error: 'Error while saving the message.' });
   }
 });
 
@@ -81,7 +81,7 @@ app.post("/serversavevisitor", async (req, res) => {
     //save visitor to database
     client = await pool.connect();
     const result = await client.query(
-      `INSERT INTO latviaresidency_visitors (ip, op, browser, date) 
+      `INSERT INTO en_latviaresidency_visitors (ip, op, browser, date) 
       VALUES ($1, $2, $3, $4)`, [visitorData.ip, visitorData.os, visitorData.browser, visitorData.visitDate]
     );
     res.status(200).json({myMessage: "Visitor IP successfully logged"});
@@ -114,12 +114,12 @@ app.post("/serversavecomment", async (req, res) => {
   try {
     client = await pool.connect();
     const result = await client.query(
-      `INSERT INTO latviaresidency_comments (date, name, comment) values ($1, $2, $3)`, [date, name, text]
+      `INSERT INTO en_latviaresidency_comments (date, name, comment) values ($1, $2, $3)`, [date, name, text]
     );
-    res.status(201).json({message: "Yorumunuz kaydedildi"});
+    res.status(201).json({message: "Your comment saved."});
   } catch (error) {
     console.log(error.message);
-    res.status(500).json({message: "Yorumunuz kaydederken hata oluştu."})
+    res.status(500).json({message: "Error while saving your comment."})
   } finally {
     if(client) client.release();
   }
@@ -141,13 +141,13 @@ app.post("/serversavecommentreply", async (req, res) => {
   try {
     client = await pool.connect(); 
     const result = await client.query(
-      `INSERT INTO latviaresidency_comments (date, name, comment, parent_id) values ($1, $2, $3, $4)`, 
+      `INSERT INTO en_latviaresidency_comments (date, name, comment, parent_id) values ($1, $2, $3, $4)`, 
       [date, name, text, commentId]
     );
-    res.status(201).json({message: "Cevabınız kaydedildi."});
+    res.status(201).json({message: "Your answer saved."});
   } catch (error) {
     console.log(error.message);
-    res.status(500).json({message: "Cevabınız kaydedilirken hata oluştu."})
+    res.status(500).json({message: "Error while saving your answer"})
   } finally {
     if(client) client.release();
   }
@@ -158,7 +158,7 @@ app.get("/servergetcomments", async (req, res) => {
   try {
     client = await pool.connect(); 
     const result = await client.query(
-      `SELECT * FROM latviaresidency_comments`
+      `SELECT * FROM en_latviaresidency_comments`
     );
     const allComments = await result.rows;
     if(!allComments) {
@@ -198,10 +198,6 @@ app.listen(PORT, () => {
 add how to become a citizen section, reference immigrant invest
 add car rental page with pictures
 */
-//Check for Türkiye, Türk, Türkçe and its english versions in all components
-//Fix routes if needed
-//Remove Turkish flag
-//Change the content of the mainpage to to the taste of international clients
 //You can remove cors before production
 /*
 UNCOMMENT THIS IN SERVER.JS: app.use(express.static(path.join(__dirname, 'client/build'))); 

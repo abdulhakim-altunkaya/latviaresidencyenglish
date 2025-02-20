@@ -144,13 +144,14 @@ function BottomCompany() {
               <strong>Required Documents and Information:</strong>
               <li>Valid passport details of the founders (a scanned copy of the main passport page)</li>
               <li>Founders' residency address information (e-government residency certificate)</li>
-              <li>Information about the founders' representatives (we submit our personal details to the Company Register as your representatives)</li>
+              <li>Information about the founders' representatives 
+                (we submit our personal details to the Company Register as your representatives)</li>
               <li>Valid passport and residency address information of the board members</li>
               <li>The company’s articles of association (prepared by us)</li>
               <li>Bank document confirming deposit of the company's share capital (prepared by us)</li>
               <li>Company address details (provided by us)</li>
-              <li>Although not mandatory, founders and board members may obtain a criminal record certificate from Turkey with an apostille and translation into Latvian, or from the Riga Embassy/Consulate without an apostille but in Latvian.</li>
-              <li>If one of the founders is a legal entity (e.g., a company registered in Turkey),
+              <li>Although not mandatory, criminal record certificate with apostille and translation into Latvian.</li>
+              <li>If one of the founders is a legal entity (e.g., a company registered in another country),
                 <br/> - Company establishment document (Trade Registry Gazette)
                 <br/> - Company address information (Trade Registry Record)
                 <br/> - Certificate of good standing (Trade Registry Offices)
