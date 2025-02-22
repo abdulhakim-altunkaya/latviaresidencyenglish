@@ -1,0 +1,39 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--  Homepage  -->
+<url>
+<loc>https://www.latviaresidency.org/</loc>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+<!--  Other web pages  -->
+<url>
+<loc>https://latviaresidency.org/investment-residency</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://latviaresidency.org/other-services</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://latviaresidency.org/company-set-up</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://latviaresidency.org/prices</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://latviaresidency.org/questions</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://latviaresidency.org/contact</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+</urlset>
