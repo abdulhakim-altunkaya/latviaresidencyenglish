@@ -27,7 +27,7 @@ function BottomOther() {
         <meta name="robots" content="index, follow" />
 
         {/* Canonical Link (tweak URL to your actual page) */}
-        <link rel="canonical" href="https://www.letonyaoturum.com/diger-hizmetler" />
+        <link rel="canonical" href="https://www.latviaresidency.org/other-services" />
 
         {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
@@ -37,8 +37,7 @@ function BottomOther() {
           content="Detailed information about our services in Latvia, including translation, guiding, company formation, car rental, and more."
         />
         {/* This image should represent your page’s content or brand */}
-        <meta property="og:image" content="https://www.letonyaoturum.com/svg_certification.svg" />
-        <meta property="og:url" content="https://www.letonyaoturum.com/diger-hizmetler" />
+        <meta property="og:url" content="https://www.latviaresidency.org/other-services" />
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -47,7 +46,6 @@ function BottomOther() {
           name="twitter:description"
           content="Detailed information about our services in Latvia, including translation, guiding, company formation, car rental, and more."
         />
-        <meta name="twitter:image" content="https://www.letonyaoturum.com/svg_certification.svg" />
       </Helmet>
 
       <div className='infoHeaderArea2'>
