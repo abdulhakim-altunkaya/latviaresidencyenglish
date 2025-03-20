@@ -63,8 +63,7 @@ function BottomPrices() {
         <div className='bottomPricesContent1'>
           <p>In line with our principles of transparency and customer satisfaction, our fees for 2025 are listed below.</p>
           <p>Our fees are standard and apply equally to all clients.</p>
-          <p>Our fees are charged in a single payment. If the residence card is not issued or if our client withdraws their application, half of the paid amount is refunded within 30 days.</p>
-          <p>All taxes under Latvian law are included in our fees, and invoices are issued in the client’s name for any payments made.</p>
+          <p>Our fees are charged in a single payment.</p>
           <p>Payments are made to our company’s bank account in Latvia.</p>
           <p>Details of what our fees cover can be found by clicking on the items below.</p>
         </div>
@@ -73,7 +72,7 @@ function BottomPrices() {
           <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(1)}>
               <span className='spanListTitle'>Residence card application through real estate investment: </span> 
-              <span className='spanPrices'> 6000 Euro</span>
+              <span className='spanPrices'> 15000 Euro</span>
             </div>  
           </div> 
           {isVisible1 ? 
@@ -95,7 +94,7 @@ function BottomPrices() {
           <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
               <span className='spanListTitle'>Residence card application through government bonds: </span> 
-              <span className='spanPrices'> 6000 Euro</span>
+              <span className='spanPrices'> 15000 Euro</span>
             </div>
           </div>
           {isVisible2 ? 
@@ -116,7 +115,7 @@ function BottomPrices() {
           <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(3)}>
               <span className='spanListTitle'>Residence card application through limited company investment: </span> 
-              <span className='spanPrices'> 6000 Euro</span>
+              <span className='spanPrices'> 15000 Euro</span>
             </div>
           </div>
           {isVisible3 ? 
@@ -137,7 +136,7 @@ function BottomPrices() {
           <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
               <span className='spanListTitle'>Residence card application through bank deposit investment </span> 
-              <span className='spanPrices'> 6000 Euro</span>
+              <span className='spanPrices'> 15000 Euro</span>
             </div>
           </div>
           {isVisible4 ? 

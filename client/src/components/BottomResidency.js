@@ -134,58 +134,82 @@ function BottomResidency() {
           <h3>1. Real Estate Investment</h3>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Minimum investment 250,000 + 1.5% deed fee + 12,500 state fee + 6,000 consulting = Total 271,750 Euros
+            Minimum investment 250,000 + 1.5% deed fee + 12,500 state fee + 15,000 consulting = Total 280,750 Euros
           </p>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Real estate prices in Latvia are quite affordable compared to other EU countries, and as of 2025, they are even cheaper than in our own country. This is our most recommended type of investment.
+            Real estate prices in Latvia are quite affordable compared to other EU countries, 
+            and as of 2025, they are even cheaper than in our own country. This is our most recommended type of investment.
           </p>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Under the program, our all-inclusive key and residence card handover price is 5,000 Euros. Considering that the property you’ll buy will cost at least 250,000 Euros, along with fees and our consulting charge, the total amount you’ll pay will be around 280,000 Euros.
+            Under the program, our all-inclusive key and residence card handover price is 5,000 Euros. 
+            Considering that the property you’ll buy will cost at least 250,000 Euros, along with fees
+             and our consulting charge, the total amount you’ll pay will be around 280,000 Euros.
           </p>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Under the program, you can only purchase real estate from a company paying taxes in Latvia, from Latvian citizens, or from a foreigner living in Latvia (an EU citizen or someone with a long-term residence permit). Payment for the property must be made via bank transfer, the purchase price must be at least 250,000 Euros, and the property’s registered cadastral value must be at least 80,000 Euros. Agricultural and forest land are excluded from the program, but plots where a house or apartment can be built are included.
+            Under the program, you can only purchase real estate from a company paying taxes in Latvia,
+             from Latvian citizens, or from a foreigner living in Latvia (an EU citizen or someone with
+              a long-term residence permit). Payment for the property must be made via bank transfer, the
+               purchase price must be at least 250,000 Euros, and the property’s registered cadastral
+                value must be at least 80,000 Euros. Agricultural and forest land are excluded from the
+                 program, but plots where a house or apartment can be built are included.
           </p>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            We strongly recommend real estate investment because the property you purchase can appreciate in value every year, and you can earn rental income on top of that. Our expert team closely follows the Riga real estate market and can offer you many options to help you choose the right property.
+            We strongly recommend real estate investment because the property you purchase can appreciate 
+            in value every year, and you can earn rental income on top of that. Our expert team closely 
+            follows the Riga real estate market and can offer you many options to help you choose the right property.
           </p>
 
           <h3>2. Company Investment</h3>
           <p>
             <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            Minimum investment 50,000 + 10,000 state fee + 6,000 consulting = Total 66,000
+            Minimum investment 50,000 + 10,000 state fee + 15,000 consulting = Total 75,000
           </p>
           <p>
             <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            This involves investing in a company registered in Latvia. It’s the cheapest but not highly recommended. There are two ways to invest in a company: <br/>
-            <strong>50,000 Euros</strong>: Companies with a maximum of 50 employees and annual turnover under 10 million Euros <br/>
+            This involves investing in a company registered in Latvia. It’s the cheapest but not highly 
+            recommended. There are two ways to invest in a company: <br/>
+            <strong>50,000 Euros</strong>: Companies with a maximum of 50 employees and annual 
+            turnover under 10 million Euros <br/>
             <strong>100,000 Euros</strong>: Other companies
           </p>
           <p>
             <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            Although a company investment is cheaper, your investment is unlikely to appreciate or generate monthly or yearly profits in practice. Also, if you ever want to sell the shares you acquired, you might have to sell at a much lower price—or possibly zero if no buyer is found. Moreover, if the company whose shares you purchased goes bankrupt, your residence card will be canceled. In short, the funds allocated for a company investment essentially only grant you a residence card. Keep in mind that there may be no return or profit on your investment.
+            Although a company investment is cheaper, your investment is unlikely to appreciate or 
+            generate monthly or yearly profits in practice. Also, if you ever want to sell the 
+            shares you acquired, you might have to sell at a much lower price—or possibly 
+            zero if no buyer is found. Moreover, if the company whose shares you purchased goes 
+            bankrupt, your residence card will be canceled. In short, the funds allocated for a 
+            company investment essentially only grant you a residence card. Keep in mind that there 
+            may be no return or profit on your investment.
           </p>
           <p>A maximum of 10 foreign nationals can apply for a residence permit in the same company.</p>
 
           <h3>3. Zero-Interest Government Bond</h3>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Minimum investment 250,000 + 38,000 state fee + 6,000 consulting = Total 294,000
+            Minimum investment 250,000 + 38,000 state fee + 15,000 consulting = Total 303,000
           </p>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Investing in zero-interest government bonds allows you to obtain a residence permit. Compared to real estate and company investments, this can be seen as an easier option than company investments and more secure than a bank deposit.
+            Investing in zero-interest government bonds allows you to obtain a residence permit. 
+            Compared to real estate and company investments, this can be seen as an easier option 
+            than company investments and more secure than a bank deposit.
           </p>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            While these government bonds do not pay interest, you can profit from the difference between the purchase price and the nominal price at the end of the bond’s term. For example: <br/> <br/>
+            While these government bonds do not pay interest, you can profit from the difference 
+            between the purchase price and the nominal price at the end of the bond’s term. For example: <br/> <br/>
             Purchase price: 900 <br/>
             Nominal price: 1000 <br/>
             Profit: 100 <br/> <br/>
-            The customer buys the bond at the purchase price, and at the end of the bond’s term, the government repurchases it at the nominal price. The profit from the difference between the nominal price and the purchase price is generally slightly higher than what you would earn from bank deposit interest.
+            The customer buys the bond at the purchase price, and at the end of the bond’s term, 
+            the government repurchases it at the nominal price. The profit from the difference 
+            between the nominal price and the purchase price is generally slightly higher than 
+            what you would earn from bank deposit interest.
           </p>
 
           <h3>4. Bank Deposit</h3>
@@ -195,11 +219,17 @@ function BottomResidency() {
           </p>
           <p>
             <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            A bank deposit is a very secure type of investment, and you can earn up to 8% annual interest. That means you could get 390,000 Euros back after 5 years on your 280,000-Euro investment.
+            A bank deposit is a very secure type of investment, and you can earn up to 8% 
+            annual interest. That means you could get 390,000 Euros back after 5 years on 
+            your 280,000-Euro investment.
           </p>
           <p>
             <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            You must deposit at least 280,000 Euros into a Latvian bank. Your deposit will be recorded in the bank’s system as a “subordinate liability,” which means that if the bank goes bankrupt, the primary claim holders will be paid before you. Since the likelihood of the bank going bankrupt is considered low, this detail may not be particularly significant.
+            You must deposit at least 280,000 Euros into a Latvian bank. Your deposit 
+            will be recorded in the bank’s system as a “subordinate liability,” which means 
+            that if the bank goes bankrupt, the primary claim holders will be paid before 
+            you. Since the likelihood of the bank going bankrupt is considered low, this 
+            detail may not be particularly significant.
           </p>
 
           <h2>Required Documents</h2>

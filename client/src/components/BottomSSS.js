@@ -136,9 +136,7 @@ function BottomSSS() {
           </div>
           {isVisible25 ? 
           <div className='questionAtbildi'>
-            If your residence card application is denied or you withdraw it, half of the fee 
-            you paid to our company will be refunded within 30 days. In the event your visa 
-            application is denied, two-thirds of the consulting fee is refunded.
+            Unfortunately it will not be returned. 
           </div>
           : <></> }
         </div>
