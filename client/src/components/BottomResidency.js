@@ -102,7 +102,7 @@ function BottomResidency() {
             </tr>
             <tr>
               <td><strong>State Fee</strong></td>
-              <td>1.5% + 12,500</td>
+              <td>1.5% + 12,500 </td>
               <td>10,000</td>
               <td>38,000</td>
               <td>25,000</td>
@@ -133,23 +133,28 @@ function BottomResidency() {
         <div className='bottomCompanyText bottomCompanyText2'>
           <h3>1. Real Estate Investment</h3>
           <p>
-            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Minimum investment 250,000 + 1.5% deed fee + 12,500 state fee + 15,000 consulting = Total 280,750 Euros
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>   Minimum 
+            investment 250,000 + 1.5% deed fee (3750) + 12,500 state fee + 2625 fee tax 
+            + 20,000 consulting = Total 288,875 Euros
+          </p>
+          <p>The consulting fee includes 1) all other taxes and fees to be paid to the Latvian authorities 2) account 
+            opening and client approval fees paid to the bank and 3) fees paid to the notaries for certifications and
+             translations.
           </p>
           <p>
-            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Real estate prices in Latvia are quite affordable compared to other EU countries, 
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>   Real estate prices 
+            in Latvia are quite affordable compared to other EU countries, 
             and as of 2025, they are even cheaper than in our own country. This is our most recommended type of investment.
           </p>
           <p>
-            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Under the program, our all-inclusive key and residence card handover price is 5,000 Euros. 
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>   Under the program, 
+            our all-inclusive key and residence card handover price is 5,000 Euros. 
             Considering that the property you’ll buy will cost at least 250,000 Euros, along with fees
              and our consulting charge, the total amount you’ll pay will be around 280,000 Euros.
           </p>
           <p>
-            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Under the program, you can only purchase real estate from a company paying taxes in Latvia,
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>   Under the program, 
+            you can only purchase real estate from a company paying taxes in Latvia,
              from Latvian citizens, or from a foreigner living in Latvia (an EU citizen or someone with
               a long-term residence permit). Payment for the property must be made via bank transfer, the
                purchase price must be at least 250,000 Euros, and the property’s registered cadastral
@@ -157,28 +162,28 @@ function BottomResidency() {
                  program, but plots where a house or apartment can be built are included.
           </p>
           <p>
-            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            We strongly recommend real estate investment because the property you purchase can appreciate 
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>   We strongly recommend 
+            real estate investment because the property you purchase can appreciate 
             in value every year, and you can earn rental income on top of that. Our expert team closely 
             follows the Riga real estate market and can offer you many options to help you choose the right property.
           </p>
 
           <h3>2. Company Investment</h3>
           <p>
-            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            Minimum investment 50,000 + 10,000 state fee + 15,000 consulting = Total 75,000
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>   Minimum 
+            investment 50,000 + 10,000 state fee + 20,000 consulting = Total 80,000
           </p>
           <p>
-            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            This involves investing in a company registered in Latvia. It’s the cheapest but not highly 
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/> This involves 
+            investing in a company registered in Latvia. It’s the cheapest but not highly 
             recommended. There are two ways to invest in a company: <br/>
             <strong>50,000 Euros</strong>: Companies with a maximum of 50 employees and annual 
             turnover under 10 million Euros <br/>
             <strong>100,000 Euros</strong>: Other companies
           </p>
           <p>
-            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            Although a company investment is cheaper, your investment is unlikely to appreciate or 
+            <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>   Although a company 
+            investment is cheaper, your investment is unlikely to appreciate or 
             generate monthly or yearly profits in practice. Also, if you ever want to sell the 
             shares you acquired, you might have to sell at a much lower price—or possibly 
             zero if no buyer is found. Moreover, if the company whose shares you purchased goes 
@@ -191,17 +196,22 @@ function BottomResidency() {
           <h3>3. Zero-Interest Government Bond</h3>
           <p>
             <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Minimum investment 250,000 + 38,000 state fee + 15,000 consulting = Total 303,000
+            Minimum investment 250,000 + 38,000 state fee + 20,000 consulting (inc. taxes and fees) = Total 308,000
+          </p>
+          <p><span style={{color: "red", fontWeight: "bold"}}>Important:</span> This application track is currently 
+            not available because Latvian authorities stopped 
+            opening bank account to foreigners after the start of Ukraine war. The only open tracks now are Real Estate
+            and Company investment.
           </p>
           <p>
-            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            Investing in zero-interest government bonds allows you to obtain a residence permit. 
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  Investing in zero-interest government 
+            bonds allows you to obtain a residence permit. 
             Compared to real estate and company investments, this can be seen as an easier option 
             than company investments and more secure than a bank deposit.
           </p>
           <p>
-            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/>  
-            While these government bonds do not pay interest, you can profit from the difference 
+            <img src='/icon_leaf.png' className='leavesCompany' alt='leaf icon'/> While these government 
+            bonds do not pay interest, you can profit from the difference 
             between the purchase price and the nominal price at the end of the bond’s term. For example: <br/> <br/>
             Purchase price: 900 <br/>
             Nominal price: 1000 <br/>
@@ -215,7 +225,12 @@ function BottomResidency() {
           <h3>4. Bank Deposit</h3>
           <p>
             <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
-            Minimum investment 280,000 + 25,000 state fee + 6,000 consulting = Total 311,000
+            Minimum investment 280,000 + 25,000 state fee + 20,000 consulting (inc. taxes and fees) = Total 325,000
+          </p>
+          <p><span style={{color: "red", fontWeight: "bold"}}>Important:</span> This application track is currently 
+            not available because Latvian authorities stopped 
+            opening bank account to foreigners after the start of Ukraine war. The only open tracks now are Real Estate
+            and Company investment.
           </p>
           <p>
             <img src='/svg_star.svg' className='leavesCompany' alt='leaf icon'/>  
@@ -239,13 +254,25 @@ function BottomResidency() {
               <li>The address where the applicant will live in Latvia</li>
               <li>Health insurance</li>
               <li>Photo</li>
-              <li>Receipts for the application fees. These generally range from 100 to 500 Euros. If your family members are included in the application, each family member pays an additional fee. (Note that application fees differ from state fees; state fees are paid after the application is approved.)</li>
-              <li>Documents specific to the type of investment: Deed for property ownership, proof of government bond purchase, proof of bank deposit, commercial register documents for company investment, etc.</li>
+              <li>Receipts for the application fees. These generally range from 100 to 500 Euros. 
+                If your family members are included in the application, each family member pays 
+                an additional fee. (Note that application fees differ from state fees; state fees 
+                are paid after the application is approved.)</li>
+              <li>Documents specific to the type of investment: Deed for property ownership, proof of 
+                government bond purchase, proof of bank deposit, commercial register documents for 
+                company investment, etc.</li>
               <li>A document stating that you have no criminal record, its Latvian translation and apostille.</li>
-              <li>Documents showing how you obtained the investment amount. If you own a company, provide balance sheets, profit statements, etc. Or you could show the sale amount of a property you sold in your country.</li>
-              <li>Proof of sufficient funds in a bank to cover your living expenses in Latvia. For real estate, the applicant needs 2,220 Euros, spouse 740 Euros, and each child 222 Euros. For other investments, the applicant and spouse each need 740 Euros, and each child 222 Euros. These monthly amounts are multiplied by 12 to calculate the annual total.</li>
-              <li>If you are including your spouse and children in the application, you also need marriage and birth certificates.</li>
-              <li>All original documents, translations into Latvian, and photocopies must be submitted. Some documents issued by governmental institutions also require an apostille.</li>
+              <li>Documents showing how you obtained the investment amount. If you own a company, provide 
+                balance sheets, profit statements, etc. Or you could show the sale amount of a property you 
+                sold in your country.</li>
+              <li>Proof of sufficient funds in a bank to cover your living expenses in Latvia. For real 
+                estate, the applicant needs 2,220 Euros, spouse 740 Euros, and each child 222 Euros. For 
+                other investments, the applicant and spouse each need 740 Euros, and each child 222 Euros. 
+                These monthly amounts are multiplied by 12 to calculate the annual total.</li>
+              <li>If you are including your spouse and children in the application, you also need marriage 
+                and birth certificates.</li>
+              <li>All original documents, translations into Latvian, and photocopies must be submitted. 
+                Some documents issued by governmental institutions also require an apostille.</li>
               <li>Our expert team will provide every assistance and convenience in preparing these documents.</li>
             </ol>
           </div>
@@ -262,8 +289,9 @@ function BottomResidency() {
           processed within about 30 days. Once approved, the state fees for the investment are 
           transferred to the relevant accounts. The client then returns to Latvia and, with our 
           best wishes, receives the residence card in person.</p>
-          <p>During this roughly 3 to 4 month process, we stand by our client; if they 
-            cannot travel to Latvia, we provide all necessary assistance and guidance.</p>
+          <p>The process takes minimum 4 months. Some applications might take around 10 months if applicant
+            has any connection or travel history to Russia.
+          </p>
         </div>
 
         <div className='bottomCompanyLinks bottomCompanyLinks2'>

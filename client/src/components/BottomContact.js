@@ -33,7 +33,7 @@ function BottomContact() {
           <div className='contactTitleArea'>
             <span className='bottomContactSVG2'> <img src='/svg_mail.svg' alt='Email Icon'/></span>
             <span className='titleSpan4'>E-mail: </span>
-            <span className='titleSpan3'>letonyaoturum@gmail.com</span>
+            <span className='titleSpan3'>riga.residence.consulting@gmail.com</span>
           </div>
         </div>
 

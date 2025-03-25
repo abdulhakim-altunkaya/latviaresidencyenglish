@@ -136,7 +136,7 @@ function BottomSSS() {
           </div>
           {isVisible25 ? 
           <div className='questionAtbildi'>
-            Unfortunately it will not be returned. 
+            Unfortunately it will not be returned.
           </div>
           : <></> }
         </div>

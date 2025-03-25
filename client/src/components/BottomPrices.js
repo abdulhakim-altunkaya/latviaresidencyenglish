@@ -72,17 +72,16 @@ function BottomPrices() {
           <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(1)}>
               <span className='spanListTitle'>Residence card application through real estate investment: </span> 
-              <span className='spanPrices'> 15000 Euro</span>
+              <span className='spanPrices'> 20000 Euro</span>
             </div>  
           </div> 
           {isVisible1 ? 
             <div className='subDetails'>
               <span>Services included in the price:</span> <br/>
               <ul>
-                <li>Document follow-up,</li>
-                <li>Translation services,</li>
-                <li>Accompanying assistance,</li>
-                <li>Consulting,</li>
+                <li>All other taxes and fees paid to authorities,</li>
+                <li>Fees paid to bank for bank account opening and customer verification,</li>
+                <li>Notary certifications, translations and fees,</li>
                 <li>Transportation to relevant institutions by car, with on-site accompaniment</li>
                 <li>Viewing of up to 5 properties and accompaniment during visits</li>
                 <li>Transfer from Riga Airport to a hotel in Riga</li>
@@ -94,17 +93,16 @@ function BottomPrices() {
           <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(2)}>
               <span className='spanListTitle'>Residence card application through government bonds: </span> 
-              <span className='spanPrices'> 15000 Euro</span>
+              <span className='spanPrices'> 20000 Euro</span>
             </div>
           </div>
           {isVisible2 ? 
             <div className='subDetails'>
               <span>Services included in the price:</span> <br/>
               <ul>
-                <li>Document follow-up,</li>
-                <li>Translation services,</li>
-                <li>Accompanying assistance,</li>
-                <li>Consulting,</li>
+                <li>All other taxes and fees paid to authorities,</li>
+                <li>Fees paid to bank for bank account opening and customer verification,</li>
+                <li>Notary certifications, translations and fees,</li>
                 <li>Transportation to relevant institutions by car, with on-site accompaniment</li>
                 <li>Transfer from Riga Airport to a hotel in Riga</li>
                 <li>Any fees under 50 Euros paid to relevant institutions and notaries</li>
@@ -115,17 +113,16 @@ function BottomPrices() {
           <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(3)}>
               <span className='spanListTitle'>Residence card application through limited company investment: </span> 
-              <span className='spanPrices'> 15000 Euro</span>
+              <span className='spanPrices'> 20000 Euro</span>
             </div>
           </div>
           {isVisible3 ? 
             <div className='subDetails'>
               <span>Services included in the price:</span> <br/>
               <ul>
-                <li>Document follow-up,</li>
-                <li>Translation services,</li>
-                <li>Accompanying assistance,</li>
-                <li>Consulting,</li>
+                <li>All other taxes and fees paid to authorities,</li>
+                <li>Fees paid to bank for bank account opening and customer verification,</li>
+                <li>Notary certifications, translations and fees,</li>
                 <li>Transportation to relevant institutions by car, with on-site accompaniment</li>
                 <li>Transfer from Riga Airport to a hotel in Riga</li>
                 <li>Any fees under 50 Euros paid to relevant institutions and notaries</li>
@@ -136,17 +133,16 @@ function BottomPrices() {
           <div className='priceEntry'>
             <div className='bottomPricesListItem' onClick={() => toggleDetail(4)}>
               <span className='spanListTitle'>Residence card application through bank deposit investment </span> 
-              <span className='spanPrices'> 15000 Euro</span>
+              <span className='spanPrices'> 20000 Euro</span>
             </div>
           </div>
           {isVisible4 ? 
             <div className='subDetails'>
               <span>Services included in the price:</span> <br/>
               <ul>
-                <li>Document follow-up,</li>
-                <li>Translation services,</li>
-                <li>Accompanying assistance,</li>
-                <li>Consulting,</li>
+                <li>All other taxes and fees paid to authorities,</li>
+                <li>Fees paid to bank for bank account opening and customer verification,</li>
+                <li>Notary certifications, translations and fees,</li>
                 <li>Transportation to relevant institutions by car, with on-site accompaniment</li>
                 <li>Transfer from Riga Airport to a hotel in Riga</li>
                 <li>Any fees under 50 Euros paid to relevant institutions and notaries</li>
