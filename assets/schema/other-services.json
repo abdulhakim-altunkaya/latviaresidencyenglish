@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Turhan Corporate, Business and Investment Services",
+      "url": "https://latviaresidency.org/",
+      "logo": "https://latviaresidency.org/assets/icons/pyramid.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "investmentlatvia@gmail.com",
+        "telephone": "+37120669310",
+        "contactType": "Customer Service",
+        "areaServed": ["LV", "EE", "LT", "EU"],
+        "availableLanguage": ["English", "Latvian", "Russian", "Turkish"]
+      },
+      "description": "Turhan Corporate provides a range of services in Latvia, including translation, tourist guides, corporate services, customs and tax assistance, car rental, hotel reservations, and transfer services.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LV",
+        "addressLocality": "Riga"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://latviaresidency.org/other-services.html",
+      "name": "Other Services in Latvia",
+      "description": "Explore additional services offered by Turhan Corporate in Latvia, including translation, tourist guides, corporate services, customs and tax assistance, car rental, hotel reservations, and transfer services across the Baltic region.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://latviaresidency.org/",
+        "name": "Latvia Investment & Residency"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://latviaresidency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Other Services",
+          "item": "https://latviaresidency.org/other-services.html"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Translation Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV"],
+      "description": "Professional written and oral translation services in Latvian, Russian, Turkish, and English, including sworn translations for consulates and notary offices."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Tourist and Group Guide Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EE", "LT"],
+      "description": "Multilingual guide services for businessmen, official delegations, and tourists in Latvia, Estonia, Lithuania, and other Baltic and Scandinavian countries."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Corporate Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EU"],
+      "description": "Assistance with bank account opening, accounting, human resources, commercial space rentals, market research, and participation in tenders."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Customs and Tax Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV"],
+      "description": "Expert services for customs clearance and tax matters in Latvia."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Car Rental Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EE", "LT"],
+      "description": "Car rental services with or without a driver, offering luxury sedans, standard sedans, SUVs, minibuses, and buses across the Baltic region."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Hotel Reservation Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV"],
+      "description": "Hotel reservation services for groups and individuals, tailored for tourism, business meetings, and official visits."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Transfer Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EE", "LT"],
+      "description": "Transfer services between airports, seaports, train stations, and accommodations, including airport pick-up services in Latvia, Lithuania, and Estonia."
+    }
+  ]
+}

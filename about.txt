@@ -1,0 +1,20 @@
+Finish translations of all pages
+add icon to latvia residency and also to letonyaoturum
+Pages finished
+small screen styling finished
+"send us an email" section finished with api endpoint
+footer finished
+visitor logging finished with api endpoint
+add description and name tags 
+try to replace all "div" and "span" tags
+sitemap and robots created
+json-ld files added
+add cors to eumaps
+
+DEPLOYMENT
+point the nameserver to netlify
+delete from render
+update the google analytics and search console
+
+
+DONE

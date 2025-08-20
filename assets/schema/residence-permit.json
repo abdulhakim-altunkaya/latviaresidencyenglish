@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Turhan Corporate, Business and Investment Services",
+      "url": "https://latviaresidency.org/",
+      "logo": "https://latviaresidency.org/assets/icons/pyramid.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "investmentlatvia@gmail.com",
+        "telephone": "+37120669310",
+        "contactType": "Customer Service",
+        "areaServed": ["LV", "EU"],
+        "availableLanguage": ["English", "Latvian"]
+      },
+      "description": "Turhan Corporate provides expert consulting for obtaining Latvian residence permits through investment, including real estate, company investment, government bonds, and bank deposits.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LV",
+        "addressLocality": "Riga"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://latviaresidency.org/residency-permit.html",
+      "name": "Residence Permit through Investment in Latvia",
+      "description": "Comprehensive guide to obtaining a Latvian residence permit through investment options such as real estate, company investment, government bonds, and bank deposits, including required documents and application process.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://latviaresidency.org/",
+        "name": "Latvia Investment & Residency"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://latviaresidency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Residence Permit",
+          "item": "https://latviaresidency.org/residency-permit.html"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Residence Permit Consulting",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EU"],
+      "description": "Consulting services for obtaining Latvian residence permits through investments in real estate (min. 250,000 EUR), company shares (min. 50,000 EUR), government bonds (min. 250,000 EUR), or bank deposits (min. 280,000 EUR). Includes document preparation, application assistance, and investment guidance.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://latviaresidency.org/residency-permit.html",
+        "priceCurrency": "EUR",
+        "price": "15000",
+        "description": "Consulting services for residence permit applications, including document preparation, translation, institutional visits, and airport transfers in Riga."
+      }
+    }
+  ]
+}

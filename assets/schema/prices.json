@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Turhan Corporate, Business and Investment Services",
+      "url": "https://latviaresidency.org/",
+      "logo": "https://latviaresidency.org/assets/icons/pyramid.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "investmentlatvia@gmail.com",
+        "telephone": "+37120669310",
+        "contactType": "Customer Service",
+        "areaServed": ["LV", "EU"],
+        "availableLanguage": ["English", "Latvian", "Russian", "Turkish"]
+      },
+      "description": "Turhan Corporate provides transparent pricing for consulting, residence permit applications, company formation, tourist guides, and translation services in Latvia.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LV",
+        "addressLocality": "Riga"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://latviaresidency.org/prices.html",
+      "name": "Pricing for Services in Latvia",
+      "description": "Transparent pricing for 2025 for services including general consulting, residence permit applications, company formation, tourist guides, and translation services in Latvia.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://latviaresidency.org/",
+        "name": "Latvia Investment & Residency"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://latviaresidency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Prices",
+          "item": "https://latviaresidency.org/prices.html"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "serviceType": "General Consulting",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EU"],
+      "description": "Hourly consulting services for any questions or topics related to investment and business in Latvia.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://latviaresidency.org/prices.html",
+        "priceCurrency": "EUR",
+        "price": "80",
+        "description": "General consulting services charged per hour, allowing clients to discuss any investment or business-related topics."
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Residence Permit Application by Investment",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EU"],
+      "description": "Comprehensive assistance with residence permit applications through investment, including document preparation and institutional visits.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://latviaresidency.org/prices.html",
+        "priceCurrency": "EUR",
+        "price": "15000",
+        "description": "Services include document preparation, translation, consultancy, institutional visits, airport transfer, and minor institutional fees."
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Company Formation",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EU"],
+      "description": "Assistance with establishing a company in Latvia, including document preparation and registration.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://latviaresidency.org/prices.html",
+        "priceCurrency": "EUR",
+        "price": "1000",
+        "description": "Includes document preparation, translation, consultancy, one-year company address, company seal/stamp, and minor institutional fees. Bank account opening not included."
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Tourist and Group Guide Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV", "EE", "LT", "EU"],
+      "description": "Multilingual guide services for tourists and delegations in Latvia and other European countries.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://latviaresidency.org/prices.html",
+        "priceCurrency": "EUR",
+        "price": "500",
+        "description": "Daily guide services in Turkish, Latvian, Russian, and English, covering Latvia, Lithuania, Estonia, and other European countries. Guide's accommodation and meals for multi-day programs are provided by the client."
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Written Translation Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV"],
+      "description": "Professional written translation services in Turkish, Latvian, Russian, and English, per 400-word page.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://latviaresidency.org/prices.html",
+        "priceCurrency": "EUR",
+        "price": "70",
+        "description": "Written translations per 400-word page, signed by the translator, with optional notary or apostille certification for additional fees. Includes VAT and invoice."
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Verbal Translation Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      },
+      "areaServed": ["LV"],
+      "description": "Professional verbal translation services in Turkish, Latvian, Russian, and English, charged per hour.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://latviaresidency.org/prices.html",
+        "priceCurrency": "EUR",
+        "price": "120",
+        "description": "Hourly verbal translation services, including local travel expenses for the translator, with VAT and invoice included."
+      }
+    }
+  ]
+}

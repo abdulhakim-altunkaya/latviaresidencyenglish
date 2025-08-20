@@ -1,0 +1,142 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Turhan Corporate, Business and Investment Services",
+      "url": "https://latviaresidency.org/",
+      "logo": "https://latviaresidency.org/assets/icons/pyramid.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "investmentlatvia@gmail.com",
+        "telephone": "+37120669310",
+        "contactType": "Customer Service",
+        "areaServed": ["LV", "EU"],
+        "availableLanguage": ["English", "Latvian"]
+      },
+      "description": "Turhan Corporate provides expert consulting for residence permits and company formation in Latvia, offering clear answers to frequently asked questions.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LV",
+        "addressLocality": "Riga"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://latviaresidency.org/questions.html",
+      "name": "Frequently Asked Questions about Latvia Residency and Investment",
+      "description": "Answers to common questions about Latvian residence permits, citizenship, and investment processes, provided by Turhan Corporate, Business and Investment Services.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://latviaresidency.org/",
+        "name": "Latvia Investment & Residency"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Turhan Corporate, Business and Investment Services"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://latviaresidency.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FAQ",
+          "item": "https://latviaresidency.org/questions.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between temporary and permanent residence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once your residency-by-investment application is approved, you will be issued temporary residence permits for the first five years. These permits can sometimes be granted for one year at a time or for longer. At the end of the fifth year, if your investment is still maintained as it was, you can then apply for permanent residence. To be eligible for permanent residence, you must have spent at least 4 years in Latvia with temporary residence. Otherwise, you would receive another temporary residence permit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I obtain Latvian citizenship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To apply for citizenship, you must first hold temporary residence for 5 years, and then obtain permanent residence at the end of the fifth year. In your 10th year in Latvia, you can apply for citizenship. You also need to have knowledge of Latvian history, language, and general culture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I convert my temporary residence permit into a permanent residence permit after 5 years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you have A2-level Latvian language skills and have spent 4 out of those 5 years in Latvia under your residence permit, you can obtain permanent residence. Otherwise, you will simply renew your temporary residence permit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it mandatory to get permanent residency and live in Latvia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is not mandatory. If you do not meet the conditions for permanent residence, you can simply apply again for a temporary residence permit. To do this, you must have maintained your investment in its original form. After five years, there is an application fee of 5,000 Euros for another temporary residence card. You must submit your application before your current residence card expires or within 40 days after it expires. If you miss this window, you would have to reapply from the beginning and pay all fees again. As long as you maintain your investment, you can always obtain a temporary residence card. Temporary residence cards do not require knowledge of Latvian or continuous residence in Latvia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If my residence card application is denied or if I withdraw my application, is my application fee refunded?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unfortunately it will not be returned. Please understand that for each application, we are paying salaries of experts, preparing documents, making many travels and investing a huge amount of time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I work in another EU country with my temporary residence permit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. If you want to work in another EU country under a long-term residence permit, you must meet additional requirements set by that country. These requirements vary from one EU country to another."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can all nationalities apply for the residency-by-investment program?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All foreign nationals can apply. There are no restrictions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If I meet the requirements for citizenship, can I hold dual citizenship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Citizens of NATO and EU countries can have dual citizenship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide assistance with visas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we help with filling out the application form, preparing the documents, and making the appointment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I sell my investment immediately after receiving the temporary residence card?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you sell your investment after obtaining the residence card, your residence permit will be canceled."
+          }
+        }
+      ]
+    }
+  ]
+}
