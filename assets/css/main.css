@@ -52,7 +52,7 @@
         flex-direction: row;
         align-items: center;
     }
-    .logoArea {
+    .logoArea { 
         width: 10%;
         padding-top: 10px;
         cursor: pointer;
@@ -189,19 +189,18 @@
         width: 80px;
     }
     .titleArea {
-        padding: 10px;
+        padding: 8px;
         width: 80%;
     }
     .headerArea h2, .headerArea h4 {
         margin: 0;
         padding: 0;
-        cursor: pointer;
     }
     .headerArea h2 {
-        font-size: 17px;
+        font-size: 16px;
     }
     .headerArea h4 {
-        font-size: 14px;
+        font-size: 13px;
     }
     .navbarArea {
         display: block;
