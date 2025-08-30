@@ -7,24 +7,23 @@
     <!-- SEO Meta Tags -->
     <title>Latvia Investment & Residency</title>
     <meta name="description" content="A guide for investors seeking Latvian residence permits. 
-      Learn comprehensive information about Latvian residence permits through 
-      investment, real estate investment, business start-ups, and government 
-      bond investment options, as well as opportunities to live and travel in 
-      Europe. Consult with us for Latvia investment and company formation.">
+    Learn comprehensive information about Latvian residence permits through 
+    investment, real estate investment, business start-ups, and government 
+    bond investment options, as well as opportunities to live and travel in 
+    Europe. Consult with us for Latvia investment and company formation.">
     <meta name="keywords"
-      content="Latvia residence permit, residence by investment, Latvia investment, 
-      foreign investors, European residence permit, Latvia visa, living in Latvia, 
-      real estate investment, starting a business, establishing a company, personnel 
-      recruitment, government bond investment, Schengen area, how to start a company in latvia,
-      companies in latvia">
+    content="Latvia residence permit, residence by investment, Latvia investment, 
+    foreign investors, European residence permit, Latvia visa, living in Latvia, 
+    real estate investment, starting a business, establishing a company, personnel 
+    recruitment, government bond investment, Schengen area, how to start a company in latvia,
+    companies in latvia">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/sorular.css"> 
     <link rel="stylesheet" href="./assets/css/footer.css">
     <script defer src="./assets/js/main.js"></script>
-    <script type="application/ld+json" src="./assets/schema/questions.json"></script>
 </head>
 <body>
-<div class="mainArea"> 
+<main class="mainArea"> 
   <header class="headerArea">
     <div class="logoArea" onclick="location.href='./index.html'">
       <img src="./assets/icons/pyramid.svg" alt="logo of the webpage, click to go homepage"></div>
@@ -35,12 +34,12 @@
   </header>
   <nav class="navbarArea">
     <ul class="navbarList">
-        <li><a href="./residency-permit.html">Residence Permit</a></li>
-        <li><a href="./company-setup.html">Company Formation</a></li>
-        <li><a href="./other-services.html">Other Services</a></li>
-        <li><a href="./prices.html">Prices</a></li>
-        <li><a href="./questions.html">FAQ</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="https://latviaresidency.org/residency-permit.html">Residence Permit</a></li>
+        <li><a href="https://latviaresidency.org/company-setup.html">Company Formation</a></li>
+        <li><a href="https://latviaresidency.org/other-services.html">Other Services</a></li>
+        <li><a href="https://latviaresidency.org/prices.html">Prices</a></li>
+        <li><a href="https://latviaresidency.org/questions.html">FAQ</a></li>
+        <li><a href="https://latviaresidency.org/contact.html">Contact</a></li>
     </ul>
   </nav>
   <section class="bottomArea">
@@ -191,28 +190,22 @@
       </script>
     </footer>
   </section>
-</div>
+</main>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const toggleItems = document.querySelectorAll('.questionJautajums');
-      toggleItems.forEach(item => {
-        item.addEventListener('click', () => {
-          const toggleId = item.getAttribute('data-toggle-id');
-          const answer = document.getElementById(`questionAtbildi${toggleId}`);
-          if (answer) {
-            answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
-          }
-        });
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleItems = document.querySelectorAll('.questionJautajums');
+    toggleItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const toggleId = item.getAttribute('data-toggle-id');
+        const answer = document.getElementById(`questionAtbildi${toggleId}`);
+        if (answer) {
+          answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+        }
       });
     });
-  </script>
+  });
+</script>
+<script type="application/ld+json"></script>
 </body>
 </html>
-
-
-
-
-
-
-
