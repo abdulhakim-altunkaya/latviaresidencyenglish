@@ -5,6 +5,9 @@
         font-family: "Ubuntu";
         line-height: 1.5;
     }
+    .companyContentAreaSmall {
+        display: none;
+    }
     .bottomCompanyText {
         width: 95%;
         word-wrap: break-word; /* Ensures words break within the container */
@@ -96,7 +99,7 @@
 @media (max-width: 780px) {
     .bottomCompanyText {
         width: 97%;
-        font-size: 13px;
+        font-size: 14px;
         word-wrap: break-word; /* Ensures words break within the container */
         word-break: break-word; /* Breaks long words */
         overflow-wrap: break-word; /* Wraps text within the container */
@@ -108,7 +111,7 @@
         font-size: 16px;
     }
     .companyHeader {
-        width: 100%;
+        width: 90%;
         margin: auto;
         display: flex;
         align-items: center;
@@ -118,15 +121,18 @@
         font-size: 20px;
     }
     .companyContentArea {
+        display: none;
+    }
+    .companyContentAreaSmall {
         font-family: "Ubuntu";
         line-height: 1.5;
+        width: 90%;
+        margin: auto;
     }
     .companyContentArea h3 {
         font-size: 16px;
     }
     .processTable {
-        width: 96%;
-        margin: auto;
         padding: 5px;
         display: flex;
         flex-direction: column;
@@ -140,26 +146,23 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-    }
-    .processTableRowMiddle {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        justify-content: space-around;
+        margin-bottom: 15px;
     }
     .processTableBox {
         color: #ffffff;
         background-color: #324960;
         height: 170px;
-        width: 90px;
+        width: 125px;
         border-radius: 6px;
-        padding: 2px;
+        padding: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
     .processTableArrows {
-        width: 20px;
+        width: 25px;
     }
     .companyTypesTable {
         width: auto;

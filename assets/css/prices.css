@@ -65,10 +65,10 @@
 /* Media query for small screens */
 @media (max-width: 780px) {
     .pricesMainArea {
-        width: 100%;
+        width: 90%;
+        margin: auto;
         font-family: "Ubuntu";
         line-height: 1.5;
-        padding-right: 10px;
         text-align: justify; /* Justifies the text */
         word-wrap: break-word; /* Breaks long words to fit within the width */
         hyphens: auto; /* Allows hyphenation where supported */
@@ -84,7 +84,7 @@
         font-size: 20px;
     }
     .pricesContent1, .pricesContent2 {
-        width: 95%;
+        width: 98%;
         font-size: 14px;
         word-wrap: break-word; /* Ensures words break within the container */
         word-break: break-word; /* Breaks long words */
@@ -123,13 +123,12 @@
         background-color: lightblue;
     }
     .subDetails {
-        width: 80%;
+        width: 90%;
         font-family: "Ubuntu";
         font-size: 13px;
         font-style: italic;
-        margin-right: 10px;
         margin-top: 10px;
-        padding: 5px;
+        padding-right: 5px;
         border-radius: 8px;
         line-height: 1.5;
     }

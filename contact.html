@@ -17,19 +17,19 @@
       real estate investment, starting a business, establishing a company, personnel 
       recruitment, government bond investment, Schengen area">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/aboutContactForm.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script defer src="./assets/js/main.js"></script>
 </head>
 <body>
 <main class="mainArea">
   <header class="headerArea">
-    <div class="logoArea" onclick="location.href='./index.html'">
-      <img src="./assets/icons/pyramid.svg" alt="logo of the webpage, click to go homepage"></div>
-    <div class="titleArea" onclick="location.href='./index.html'">
-      <h2>LATVIA INVESTMENT & RESIDENCY</h2>
+    <div class="logoArea">
+      <a href="https://latviaresidency.org/index.html">
+      <img src="./assets/icons/pyramid.svg" alt="logo of the webpage, click to go homepage"></a>
+    </div>
+    <div class="titleArea">
+      <a href="https://latviaresidency.org/index.html"><h2>LATVIA INVESTMENT & RESIDENCY</h2></a>
       <h4>Turhan Corporate and Investment Services</h4>
     </div>
   </header>
@@ -44,138 +44,83 @@
     </ul>
   </nav>
   <section class="bottomArea">
-
-    <section class="aboutArea">
-        <section class='aboutTitleArea'>
-          <h1>ABOUT US</h1>
+    <section class="contactMainArea">
+        <section class="contactHeader">
+            <h1>ABOUT US</h1>
         </section>
 
-        <section class='aboutText'>
+        <section>
           <h4>Turhan Corporate, Business and Investment Services</h4>
           <p>Our company was founded in 2008 by our experienced experts, translators and accountants.</p>
           <p>Our goal is to provide our clients with the best service and ensure the value of their investments.</p>
           <p>We strive to provide our clients with the best possible service, provide comprehensive information, 
             and be highly transparent in every aspect, especially regarding our prices.</p>
+          <section>
+            <div class="contactDetails">
+              <img src='./assets/images/svg_whatsapp.svg' alt='Whatsapp Icon' class="contactIcons">&nbsp;&nbsp;
+              Telephone/Whatsapp:&nbsp;&nbsp;<strong>+371 20669310</strong>
+            </div>
+            <br>
+            <div class="contactDetails">
+              <img src='./assets/images/svg_mail.svg' alt='Email Icon' class="contactIcons">&nbsp;&nbsp;
+              E-mail:&nbsp;&nbsp;<strong>investmentlatvia@gmail.com</strong>
+            </div>
+            <br>
+            <br>
+            <div class="contactDetails">
+              Website Manager:&nbsp;&nbsp;<strong>TSS</strong>
+            </div>
+            <div class="contactDetails">
+              SVG Icons:&nbsp;&nbsp;<strong>svgrepo.com</strong>
+            </div>
+            <div class="contactDetails">
+              Symbols:&nbsp;&nbsp;<strong>icons8.com</strong>
+            </div>
+            <div class="contactDetails">
+              Images:&nbsp;&nbsp;<strong>Wikipedia</strong>
+            </div>
+            <div class="contactDetails">
+              Population statistics:&nbsp;&nbsp;<strong>Centrālā Statistikas Pārvalde</strong>
+            </div>
+          </section>
         </section>
-
-        <section class='contactTitleArea'>
-          <span class='bottomContactSVG2'> <img src='./assets/images/svg_whatsapp.svg' alt='Whatsapp Icon'/></span>
-          <span class='titleSpan4'>Telephone/Whatsapp: </span>
-          <span class='titleSpan3'>+371 20669310</span>
+        <section class="contactFormArea">
+          <h2>Contact Form</h2>
+          <form class="contactForm">
+            <section class="formUpperInputs">
+              <input class="formInputs" type="text" placeholder="Name Surname" id="inputName" required>
+              <input class="formInputs" type="text" placeholder="E-mail" id="inputMail" required>
+            </section>
+            <section class="formTextArea">
+              <textarea cols="30" rows="10" placeholder="Your Message" id="inputMessage" required></textarea>
+            </section>
+            <section class="formButtonArea">
+              <button type="submit" class="button1111">Save</button>
+            </section>
+            <div id="resultArea"></div>
+          </form>
         </section>
-
-        <section class='contactTitleArea'>
-            <span class='bottomContactSVG2'> <img src='./assets/images/svg_mail.svg' alt='Email Icon'/></span>
-            <span class='titleSpan4'>E-mail: </span>
-            <span class='titleSpan3'>investmentlatvia@gmail.com</span>
-        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        
     </section>
-    <section class="contactFormArea">
-      <h2>Contact Form</h2>
-      <form class="contactForm">
-        <section class="formUpperInputs">
-          <input class="formInputs" type="text" placeholder="Name Surname" id="inputName" required>
-          <input class="formInputs" type="text" placeholder="E-mail" id="inputMail" required>
-        </section>
-        <section class="formTextArea">
-          <textarea cols="30" rows="10" placeholder="Your Message" id="inputMessage" required></textarea>
-        </section>
-        <section class="formButtonArea">
-          <button type="submit" class="button1111">Save</button>
-        </section>
-        <div id="resultArea"></div>
-      </form>
-    </section>
-    <section class="creaditsArea">
-      <strong>Webmaster:</strong> TSS <br>
-      <strong>Symbols:</strong> <a href="https://icons8.com" rel="nofollow" target="_blank">icons8.com</a> <br>
-      <strong>SVG Icons:</strong> <a href="https://www.svgrepo.com" rel="nofollow" target="_blank">svgrepo.com</a> <br>
-      <strong>Images:</strong> <a href="https://www.wikipedia.org" rel="nofollow" target="_blank">Wikipedia</a><br>
-      <strong>Population statistics:</strong> 
-        <a href="https://www.csb.gov.lv" rel="nofollow" target="_blank">
-          The Central Statistical Bureau of Latvia - Centrālā Statistikas Pārvalde</a>
-    </section>
-    <br><br><br><br><br><br>
-    <footer class="footerArea">
-      <div class="footerColumn1">
-        <img src="./assets/icons/pyramid.svg" alt="website logo">
-        <h4>Turhan Corporate, Business and Investment Services</h4>
-      </div>
-      <div class="footerColumn2">
-        <address>
-          <p><strong>E-mail:</strong> <a href="mailto:investmentlatvia@gmail.com">investmentlatvia@gmail.com</a></p>
-          <p><strong>Telephone/WhatsApp:</strong> <a href="tel:+37120669310">+371 20669310</a></p>
-        </address>
-      </div>
-      <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "Turhan Corporate, Business and Investment Services",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "investmentlatvia@gmail.com",
-            "telephone": "+37120669310",
-            "contactType": "Customer Service",
-            "areaServed": "LV"
-          }
-        }
-      </script>
-    </footer>
   </section>
 </main>
+
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const form = document.querySelector('.contactFormArea');
-      const inputName = document.getElementById('inputName');
-      const inputMail = document.getElementById('inputMail');
-      const inputMessage = document.getElementById('inputMessage');
-      const resultArea = document.getElementById('resultArea');
-
-      const validateEmail = (email) => {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return re.test(String(email).toLowerCase());
-      };
-
-      form.addEventListener('submit', async (e) => {
-        e.preventDefault();
-
-        // Name validation
-        if (inputName.value.length < 2 || inputName.value.length > 50) {
-          resultArea.textContent = 'Name length must be between 2-50 characters';
-          return;
-        }
-
-        // Email validation
-        if (!validateEmail(inputMail.value)) {
-          resultArea.textContent = 'Enter a valid email address please.';
-          return;
-        }
-
-        // Message validation
-        if (inputMessage.value.length < 10 || inputMessage.value.length > 500) {
-          resultArea.textContent = 'Message must be between 10-500 characters';
-          return;
-        }
-        try {
-          const messageObject = {
-            inputName: inputName.value,
-            inputMail: inputMail.value,
-            inputMessage: inputMessage.value
-          };
-          console.log(messageObject);
-          const res = await axios.post('https://www.eumaps.org/api/save-message/letonya-oturum-english', messageObject);
-          resultArea.textContent = `${res.data.resMessage} \u2714`;
-        } catch (error) {
-          if (error.response) {
-            resultArea.textContent = error.response.data.resMessage;
-            console.log(error.message);
-          } else {
-            resultArea.textContent = 'Error whilte saving message. You can send a direct e-mail to investmentlatvia@gmail.com';
-            console.log(error.message);
-          }
-        }
-      });
+        const toggleItems = document.querySelectorAll('.bottomPricesListItem');
+        toggleItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const toggleId = item.getAttribute('data-toggle-id');
+            const subDetails = document.getElementById(`subDetails${toggleId}`);
+            if (subDetails) {
+            subDetails.style.display = subDetails.style.display === 'none' ? 'block' : 'none';
+            }
+        });
+        });
     });
 </script>
 <script type="application/ld+json"></script>

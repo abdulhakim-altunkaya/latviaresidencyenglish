@@ -1,6 +1,11 @@
 /* Media query for big screens */
 @media (min-width: 781px) {
-
+.infoAreasSmall {
+    display: none;
+}
+.countryInfoAreaSmall, .countryInfoChild1Small, .countryInfoChild2Small, .countryInfoChild1cTitleSmall {
+    display: none;
+}
 .infoAreas {
     width: 90%;
     margin: auto;
@@ -87,18 +92,23 @@
 
 /* Media query for small screens */
 @media (max-width: 780px) {
-
 .infoAreas {
-    width: 96%;
+    display: none;
+}
+.countryInfoArea, .countryInfoChild1, .countryInfoChild2, .countryInfoChild1cTitle {
+    display: none;
+}
+.infoAreasSmall {
+    width: 100%;
     margin: auto; 
-    height: 300px;
+    height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
 }
-.infoSheets {
-    width: 150px;
+.infoSheetsSmall {
+    width: 130px;
     padding: 2px;
     background-color: white;
     border-radius: 10px;
@@ -108,17 +118,17 @@
     align-items: center;
 }
 
-.infoTitle {
+.infoTitleSmall {
     font-size: 14px;
     font-weight: bold;
     font-family: "Monda";
     text-align: center;
 }
-.infoSVG img {
+.infoSVGSmall img {
     width: 50px; /* Ensure SVG image does not overflow */
     height: auto; /* Maintain aspect ratio */
 }
-.infoText {
+.infoTextSmall {
     font-size: 12px;
     padding-left: 5px;
     padding-right: 5px;
@@ -129,31 +139,29 @@
     display: flex;
     text-align: justify;
 }
-.countryInfoArea {
-    width: 80%;
+.countryInfoAreaSmall {
+    width: 90%;
     margin: auto;
     display: flex;
+    font-size: 14px;
     flex-direction: column;
 }
-.countryInfoChild1 {
+.countryInfoChild1Small {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
     font-family: "DM Sans","Monda";
 }
-.countryInfoChild1cTitle {
+.countryInfoChild1cTitleSmall {
     font-family: "Lobster", 'Trebuchet MS';
     font-size: 22px;
 }
 
 
-.countryInfoChild2 img {
-    width: 300px;    /* Make the image take up the full width of the container */
-       /* Ensure the height is also fully covered */
-    object-fit: cover;  /* Preserve the aspect ratio and cover the container */
-    object-position: center;  /* Center the image within the container */
-    border-radius: 8px;
+.countryInfoChild2Small img {
+  max-width: 100%;
+  height: auto;
+  display: block;
     box-shadow: 0px 4px 10px rgba(139, 0, 0, 0.8); /* Dark red box shadow */
 }
 }

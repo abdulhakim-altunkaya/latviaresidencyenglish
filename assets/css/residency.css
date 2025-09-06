@@ -1,6 +1,8 @@
 /* Media query for big screens */
 @media (min-width: 781px) {
-
+    .residencyContentAreaSmall {
+        display: none;
+    }
     .residencyContentArea {
         font-family: "Ubuntu";
         line-height: 1.5;
@@ -129,48 +131,43 @@
 }
 /* Media query for small screens */
 @media (max-width: 780px) {
-
     .residencyContentArea {
-        font-family: "Ubuntu";
-        line-height: 1.5;
-        padding-right: 10px;
-        text-align: justify; /* Justifies the text */
-        word-wrap: break-word; /* Breaks long words to fit within the width */
-        hyphens: auto; /* Allows hyphenation where supported */
+        display: none;
     } 
- 
-    .residencyHeader { 
-        width: 100%;
+     .residencyContentAreaSmall {
+        width: 90%;
         margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        box-sizing: border-box;
+        font-family: "Maven Pro";
+        overflow: hidden;
+    }
+    .residencyContentAreaSmall p{
+        text-align: justify;
+    }
+    .residencyHeaderSmall { 
+        width: 90%;
+        margin: auto;
+        text-align: center;
         color: black;
         font-family: "Monda";
-        font-size: 20px;
-        text-align: center;
+        font-size: 19px;
     }
-    
-    .infoResidencyCardsMain {
+    .infoResidencyCardsMainSmall {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center; /* Horizontally center children */
         justify-content: center; /* Vertically center children */
     }
-    .infoResidencyCardsRows {
-        display: flex;
-        flex-direction: column;
-    }
     .infoResidencyCards1, .infoResidencyCards2, .infoResidencyCards3, .infoResidencyCards4 {
         background-color: aqua;
         height: 210px;
-        width: 300px;
-        margin: 5px;
+        width: 90%;
+        margin-bottom: 15px;
         display: flex;
         flex-direction: column;
-    
-        position: relative;
+        align-items: center; /* Horizontally center children */
+        justify-content: center; /* Vertically center children */
         border: 1px solid transparent; /* Transparent border for the gradient */
         border-radius: 10px; /* Adjust based on design */
         background-origin: border-box;
@@ -216,7 +213,6 @@
     .infoCardTitle {
         font-size: 15px;
         font-weight: bold;
-        margin-left: 13px;
     }
     .redCube {
         background-color: #ff0b0b !important;
@@ -227,18 +223,18 @@
 
 
     .residencyTable {
-        width: auto;
+        width: 92%;
         margin: auto;
     }
     .residencyTable tr td,
     .residencyTable tr th {
-        width: 160px; /* Maximum width for cells */
+        width: 150px; /* Maximum width for cells */
         overflow: visible; /* Allows content to be fully visible */
         white-space: normal; /* Allows text to wrap onto the next line */
         word-wrap: break-word; /* Ensures words wrap properly if they are too long */
         word-break: break-word; /* Breaks long words into the next line */
         font-size: 12px;
-        padding: 5px;
+        padding: 3px;
         text-align: left;
     }
 

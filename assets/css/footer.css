@@ -1,8 +1,8 @@
 /* Media query for small screens */
 @media (min-width: 781px) {
 .footerArea {
-    width: calc(100% - 20px); /* Subtract margin-right from width */
-    margin-right: 20px;
+    width: 96%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -37,8 +37,8 @@
 /* Media query for small screens */
 @media (max-width: 780px) {
 .footerArea {
-    width: calc(100% - 20px); /* Subtract margin-right from width */
-    margin-right: 20px;
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

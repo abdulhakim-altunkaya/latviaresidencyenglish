@@ -1,0 +1,63 @@
+/* Media query for big screens */
+@media (min-width: 781px) {
+    .contactMainArea {
+        width: 100%;
+        font-family: "Ubuntu";
+        line-height: 1.5;
+        padding-right: 20px;
+        text-align: justify; /* Justifies the text */
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+        font-size: 15px;
+    }
+    .contactHeader {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-family: "Monda";
+        font-size: 25px;
+    }
+    .contactIcons {
+        width: 30px;
+    }
+    .contactDetails {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* Media query for small screens */
+@media (max-width: 780px) {
+    .contactMainArea {
+        width: 90%;
+        margin: auto;
+        font-family: "Ubuntu";
+        line-height: 1.5;
+        text-align: justify; /* Justifies the text */
+        word-wrap: break-word; /* Breaks long words to fit within the width */
+        hyphens: auto; /* Allows hyphenation where supported */
+        font-size: 13px;
+    }
+    .contactHeader {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-family: "Monda";
+        font-size: 19px;
+    }
+    .contactIcons {
+        width: 30px;
+    }
+    .contactDetails {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+}

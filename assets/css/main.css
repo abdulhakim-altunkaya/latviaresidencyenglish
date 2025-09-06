@@ -52,6 +52,10 @@
         flex-direction: row;
         align-items: center;
     }
+    .headerArea a {
+        text-decoration: none;
+        color: white;
+    }
     .logoArea { 
         width: 10%;
         padding-top: 10px;
@@ -116,8 +120,11 @@
         display: flex; /* Optional: If you want nested flexbox */
         flex-direction: column; /* Stack contentArea, commentArea, footerArea */
         padding-left: 20px;
+        min-height: 100vh;
     }
-
+    .contentAreaSmall {
+        display: none;
+    }
     .requiredDocs ol {
       background-color: #e6f3e6;
       border-radius: 10px;
@@ -197,10 +204,14 @@
         padding: 0;
     }
     .headerArea h2 {
-        font-size: 16px;
+        font-size: 15px;
     }
     .headerArea h4 {
         font-size: 13px;
+    }
+    .headerArea a {
+        text-decoration: none;
+        color: white;
     }
     .navbarArea {
         display: block;
@@ -240,11 +251,16 @@
 
     .bottomArea {
         flex: 1; /* Takes remaining space */
-        display: flex; /* Optional: If you want nested flexbox */
-        flex-direction: column; /* Stack contentArea, commentArea, footerArea */
-        padding-left: 5px;
     }
-
+    .contentArea {
+        display: none;
+    }
+    .contentAreaSmall {
+        width: 100%;
+        max-width: 90%; /* keeps it centered */
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
     .requiredDocs ol {
       background-color: #e6f3e6;
       border-radius: 10px;
@@ -252,7 +268,7 @@
       box-shadow: 0 4px 15px rgba(0, 128, 0, 0.2);
       max-width: 600px;
       margin: 20px auto;
-    }
+    } 
     .requiredDocs ol h3 {
       font-size: 14px;
       color: #2e7d32;

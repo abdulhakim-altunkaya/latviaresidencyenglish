@@ -14,7 +14,7 @@
     .questionCards {
         margin-bottom: 14px;
     }
-    .questionJautajums {
+    .questionJautajums { 
         background-color: #f2f2f2;
         display: flex;
         flex-direction: row;
@@ -43,7 +43,7 @@
 @media (max-width: 780px) {
 
     .questionsArea {
-        width: 100%;
+        width: 90%;
         margin: auto;
         box-sizing: border-box;
         font-family: "Maven Pro";

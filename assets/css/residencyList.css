@@ -59,7 +59,7 @@
 /* Media query for small screens */
 @media (max-width: 780px) {
 .list-type5{
-    width:320px;
+    width:300px;
     margin-left: 5px;
 }
 .list-type5 ol {

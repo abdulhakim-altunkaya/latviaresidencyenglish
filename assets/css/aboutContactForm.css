@@ -67,16 +67,17 @@
 }
 /* Media query for small screens */
 @media (max-width: 780px) {
-    .contactFormArea h2 {
-        font-family: "Ubuntu", 'Trebuchet MS', sans-serif;
-        font-size: 18px;
-    }
+
     .contactForm {
-        margin-top: 15px;
+        width: 94%;
+        margin: auto;
         background-color: #e8edf0;
         padding: 10px;
-        width: 330px;
         border-radius: 8px;
+    }
+    .contactFormArea h2 {
+        font-family: "Ubuntu", 'Trebuchet MS', sans-serif;
+        font-size: 17px;
     }
     .formUpperInputs {
         margin-bottom: 20px;
@@ -88,7 +89,7 @@
         box-sizing: border-box; /* Includes padding and border in the total width */
         border: none;
         outline: none;
-        width: 155px;
+        width: 120px;
         border-radius: 4px;
         height: 35px;
         padding: 8px;
